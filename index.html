@@ -1,0 +1,4512 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Petualangan Esai: Tantangan Jalanan</title>
+    <style id="tailwind-build">
+/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --color-orange-500: oklch(70.5% 0.213 47.604);
+    --color-orange-600: oklch(64.6% 0.222 41.116);
+    --color-amber-100: oklch(96.2% 0.059 95.617);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-400: oklch(82.8% 0.189 84.429);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
+    --color-amber-800: oklch(47.3% 0.137 46.201);
+    --color-yellow-300: oklch(90.5% 0.182 98.111);
+    --color-yellow-400: oklch(85.2% 0.199 91.936);
+    --color-yellow-500: oklch(79.5% 0.184 86.047);
+    --color-emerald-50: oklch(97.9% 0.021 166.113);
+    --color-emerald-100: oklch(95% 0.052 163.051);
+    --color-emerald-300: oklch(84.5% 0.143 164.978);
+    --color-emerald-400: oklch(76.5% 0.177 163.223);
+    --color-emerald-500: oklch(69.6% 0.17 162.48);
+    --color-emerald-600: oklch(59.6% 0.145 163.225);
+    --color-emerald-800: oklch(43.2% 0.095 166.913);
+    --color-emerald-900: oklch(37.8% 0.077 168.94);
+    --color-teal-600: oklch(60% 0.118 184.704);
+    --color-cyan-300: oklch(86.5% 0.127 207.078);
+    --color-cyan-500: oklch(71.5% 0.143 215.221);
+    --color-sky-50: oklch(97.7% 0.013 236.62);
+    --color-sky-100: oklch(95.1% 0.026 236.824);
+    --color-sky-300: oklch(82.8% 0.111 230.318);
+    --color-sky-400: oklch(74.6% 0.16 232.661);
+    --color-sky-500: oklch(68.5% 0.169 237.323);
+    --color-indigo-200: oklch(87% 0.065 274.039);
+    --color-indigo-400: oklch(67.3% 0.182 276.935);
+    --color-indigo-500: oklch(58.5% 0.233 277.117);
+    --color-indigo-600: oklch(51.1% 0.262 276.966);
+    --color-rose-50: oklch(96.9% 0.015 12.422);
+    --color-rose-200: oklch(89.2% 0.058 10.001);
+    --color-rose-300: oklch(81% 0.117 11.638);
+    --color-rose-400: oklch(71.2% 0.194 13.428);
+    --color-rose-500: oklch(64.5% 0.246 16.439);
+    --color-rose-600: oklch(58.6% 0.253 17.585);
+    --color-rose-700: oklch(51.4% 0.222 16.935);
+    --color-rose-900: oklch(41% 0.159 10.272);
+    --color-slate-50: oklch(98.4% 0.003 247.858);
+    --color-slate-100: oklch(96.8% 0.007 247.896);
+    --color-slate-200: oklch(92.9% 0.013 255.508);
+    --color-slate-300: oklch(86.9% 0.022 252.894);
+    --color-slate-400: oklch(70.4% 0.04 256.788);
+    --color-slate-500: oklch(55.4% 0.046 257.417);
+    --color-slate-600: oklch(44.6% 0.043 257.281);
+    --color-slate-700: oklch(37.2% 0.044 257.287);
+    --color-slate-800: oklch(27.9% 0.041 260.031);
+    --color-slate-900: oklch(20.8% 0.042 265.755);
+    --color-slate-950: oklch(12.9% 0.042 264.695);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --container-md: 28rem;
+    --container-lg: 32rem;
+    --container-2xl: 42rem;
+    --container-6xl: 72rem;
+    --text-xs: 0.75rem;
+    --text-xs--line-height: calc(1 / 0.75);
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
+    --leading-tight: 1.25;
+    --leading-snug: 1.375;
+    --leading-relaxed: 1.625;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-3xl: 1.5rem;
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    --blur-sm: 8px;
+    --blur-md: 12px;
+    --default-transition-duration: 150ms;
+    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring:where(:not(iframe)) {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .pointer-events-auto {
+    pointer-events: auto;
+  }
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .inset-0 {
+    inset: 0px;
+  }
+  .top-0 {
+    top: 0px;
+  }
+  .right-0 {
+    right: 0px;
+  }
+  .bottom-4 {
+    bottom: calc(var(--spacing) * 4);
+  }
+  .left-0 {
+    left: 0px;
+  }
+  .z-10 {
+    z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
+  }
+  .z-30 {
+    z-index: 30;
+  }
+  .z-50 {
+    z-index: 50;
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .my-auto {
+    margin-block: auto;
+  }
+  .mt-0\.5 {
+    margin-top: calc(var(--spacing) * 0.5);
+  }
+  .mt-1 {
+    margin-top: var(--spacing);
+  }
+  .mt-1\.5 {
+    margin-top: calc(var(--spacing) * 1.5);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .mb-1 {
+    margin-bottom: var(--spacing);
+  }
+  .mb-1\.5 {
+    margin-bottom: calc(var(--spacing) * 1.5);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-2\.5 {
+    margin-bottom: calc(var(--spacing) * 2.5);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
+  .block {
+    display: block;
+  }
+  .flex {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+  }
+  .hidden {
+    display: none;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .inline-flex {
+    display: inline-flex;
+  }
+  .h-2\.5 {
+    height: calc(var(--spacing) * 2.5);
+  }
+  .h-9 {
+    height: calc(var(--spacing) * 9);
+  }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+  .h-full {
+    height: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .max-h-\[92vh\] {
+    max-height: 92vh;
+  }
+  .w-9 {
+    width: calc(var(--spacing) * 9);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+  .w-full {
+    width: 100%;
+  }
+  .w-screen {
+    width: 100vw;
+  }
+  .max-w-2xl {
+    max-width: var(--container-2xl);
+  }
+  .max-w-6xl {
+    max-width: var(--container-6xl);
+  }
+  .max-w-\[120px\] {
+    max-width: 120px;
+  }
+  .max-w-lg {
+    max-width: var(--container-lg);
+  }
+  .max-w-md {
+    max-width: var(--container-md);
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .resize {
+    resize: both;
+  }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .items-end {
+    align-items: flex-end;
+  }
+  .items-start {
+    align-items: flex-start;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  :where(.space-y-2 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+  }
+  :where(.space-y-2\.5 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 2.5) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 2.5) * calc(1 - var(--tw-space-y-reverse)));
+  }
+  :where(.space-y-3\.5 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 3.5) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 3.5) * calc(1 - var(--tw-space-y-reverse)));
+  }
+  :where(.space-y-4 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
+  }
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .rounded-3xl {
+    border-radius: var(--radius-3xl);
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-amber-300 {
+    border-color: var(--color-amber-300);
+  }
+  .border-amber-400 {
+    border-color: var(--color-amber-400);
+  }
+  .border-amber-500\/30 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 30%, transparent);
+    }
+  }
+  .border-amber-500\/40 {
+    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-amber-500) 40%, transparent);
+    }
+  }
+  .border-cyan-500\/30 {
+    border-color: color-mix(in srgb, oklch(71.5% 0.143 215.221) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-cyan-500) 30%, transparent);
+    }
+  }
+  .border-emerald-300 {
+    border-color: var(--color-emerald-300);
+  }
+  .border-emerald-400 {
+    border-color: var(--color-emerald-400);
+  }
+  .border-emerald-400\/40 {
+    border-color: color-mix(in srgb, oklch(76.5% 0.177 163.223) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-emerald-400) 40%, transparent);
+    }
+  }
+  .border-emerald-500 {
+    border-color: var(--color-emerald-500);
+  }
+  .border-emerald-500\/30 {
+    border-color: color-mix(in srgb, oklch(69.6% 0.17 162.48) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-emerald-500) 30%, transparent);
+    }
+  }
+  .border-emerald-500\/40 {
+    border-color: color-mix(in srgb, oklch(69.6% 0.17 162.48) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-emerald-500) 40%, transparent);
+    }
+  }
+  .border-indigo-400\/40 {
+    border-color: color-mix(in srgb, oklch(67.3% 0.182 276.935) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-indigo-400) 40%, transparent);
+    }
+  }
+  .border-rose-200 {
+    border-color: var(--color-rose-200);
+  }
+  .border-rose-400 {
+    border-color: var(--color-rose-400);
+  }
+  .border-rose-500 {
+    border-color: var(--color-rose-500);
+  }
+  .border-rose-500\/40 {
+    border-color: color-mix(in srgb, oklch(64.5% 0.246 16.439) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-rose-500) 40%, transparent);
+    }
+  }
+  .border-sky-400 {
+    border-color: var(--color-sky-400);
+  }
+  .border-sky-500\/30 {
+    border-color: color-mix(in srgb, oklch(68.5% 0.169 237.323) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-sky-500) 30%, transparent);
+    }
+  }
+  .border-sky-500\/40 {
+    border-color: color-mix(in srgb, oklch(68.5% 0.169 237.323) 40%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-sky-500) 40%, transparent);
+    }
+  }
+  .border-slate-100 {
+    border-color: var(--color-slate-100);
+  }
+  .border-slate-200 {
+    border-color: var(--color-slate-200);
+  }
+  .border-slate-200\/80 {
+    border-color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-slate-200) 80%, transparent);
+    }
+  }
+  .border-slate-600 {
+    border-color: var(--color-slate-600);
+  }
+  .border-slate-700 {
+    border-color: var(--color-slate-700);
+  }
+  .border-slate-700\/60 {
+    border-color: color-mix(in srgb, oklch(37.2% 0.044 257.287) 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-slate-700) 60%, transparent);
+    }
+  }
+  .border-slate-700\/80 {
+    border-color: color-mix(in srgb, oklch(37.2% 0.044 257.287) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-slate-700) 80%, transparent);
+    }
+  }
+  .border-white\/10 {
+    border-color: color-mix(in srgb, #fff 10%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+    }
+  }
+  .border-white\/15 {
+    border-color: color-mix(in srgb, #fff 15%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-white) 15%, transparent);
+    }
+  }
+  .border-white\/30 {
+    border-color: color-mix(in srgb, #fff 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-white) 30%, transparent);
+    }
+  }
+  .border-yellow-500\/30 {
+    border-color: color-mix(in srgb, oklch(79.5% 0.184 86.047) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-yellow-500) 30%, transparent);
+    }
+  }
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
+  }
+  .bg-amber-400 {
+    background-color: var(--color-amber-400);
+  }
+  .bg-amber-500\/20 {
+    background-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-amber-500) 20%, transparent);
+    }
+  }
+  .bg-cyan-500\/20 {
+    background-color: color-mix(in srgb, oklch(71.5% 0.143 215.221) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-cyan-500) 20%, transparent);
+    }
+  }
+  .bg-emerald-50 {
+    background-color: var(--color-emerald-50);
+  }
+  .bg-emerald-100 {
+    background-color: var(--color-emerald-100);
+  }
+  .bg-emerald-500\/20 {
+    background-color: color-mix(in srgb, oklch(69.6% 0.17 162.48) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-emerald-500) 20%, transparent);
+    }
+  }
+  .bg-emerald-600\/90 {
+    background-color: color-mix(in srgb, oklch(59.6% 0.145 163.225) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-emerald-600) 90%, transparent);
+    }
+  }
+  .bg-indigo-500\/30 {
+    background-color: color-mix(in srgb, oklch(58.5% 0.233 277.117) 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-indigo-500) 30%, transparent);
+    }
+  }
+  .bg-rose-50 {
+    background-color: var(--color-rose-50);
+  }
+  .bg-rose-500\/20 {
+    background-color: color-mix(in srgb, oklch(64.5% 0.246 16.439) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-rose-500) 20%, transparent);
+    }
+  }
+  .bg-rose-600 {
+    background-color: var(--color-rose-600);
+  }
+  .bg-sky-500\/20 {
+    background-color: color-mix(in srgb, oklch(68.5% 0.169 237.323) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-sky-500) 20%, transparent);
+    }
+  }
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+  .bg-slate-800 {
+    background-color: var(--color-slate-800);
+  }
+  .bg-slate-800\/90 {
+    background-color: color-mix(in srgb, oklch(27.9% 0.041 260.031) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-800) 90%, transparent);
+    }
+  }
+  .bg-slate-900 {
+    background-color: var(--color-slate-900);
+  }
+  .bg-slate-900\/75 {
+    background-color: color-mix(in srgb, oklch(20.8% 0.042 265.755) 75%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-900) 75%, transparent);
+    }
+  }
+  .bg-slate-900\/80 {
+    background-color: color-mix(in srgb, oklch(20.8% 0.042 265.755) 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-900) 80%, transparent);
+    }
+  }
+  .bg-slate-900\/85 {
+    background-color: color-mix(in srgb, oklch(20.8% 0.042 265.755) 85%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-900) 85%, transparent);
+    }
+  }
+  .bg-slate-950\/90 {
+    background-color: color-mix(in srgb, oklch(12.9% 0.042 264.695) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-slate-950) 90%, transparent);
+    }
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-white\/10 {
+    background-color: color-mix(in srgb, #fff 10%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+    }
+  }
+  .bg-white\/20 {
+    background-color: color-mix(in srgb, #fff 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-white) 20%, transparent);
+    }
+  }
+  .bg-yellow-500\/20 {
+    background-color: color-mix(in srgb, oklch(79.5% 0.184 86.047) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-yellow-500) 20%, transparent);
+    }
+  }
+  .bg-gradient-to-br {
+    --tw-gradient-position: to bottom right in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .bg-gradient-to-r {
+    --tw-gradient-position: to right in oklab;
+    background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .from-amber-400 {
+    --tw-gradient-from: var(--color-amber-400);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-emerald-500 {
+    --tw-gradient-from: var(--color-emerald-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-emerald-600\/90 {
+    --tw-gradient-from: color-mix(in srgb, oklch(59.6% 0.145 163.225) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-gradient-from: color-mix(in oklab, var(--color-emerald-600) 90%, transparent);
+    }
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-orange-500 {
+    --tw-gradient-from: var(--color-orange-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-sky-500 {
+    --tw-gradient-from: var(--color-sky-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-slate-800 {
+    --tw-gradient-from: var(--color-slate-800);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .via-orange-500 {
+    --tw-gradient-via: var(--color-orange-500);
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+  .to-amber-500 {
+    --tw-gradient-to: var(--color-amber-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-indigo-600 {
+    --tw-gradient-to: var(--color-indigo-600);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-orange-500 {
+    --tw-gradient-to: var(--color-orange-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-rose-500 {
+    --tw-gradient-to: var(--color-rose-500);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-slate-900 {
+    --tw-gradient-to: var(--color-slate-900);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-teal-600 {
+    --tw-gradient-to: var(--color-teal-600);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-teal-600\/90 {
+    --tw-gradient-to: color-mix(in srgb, oklch(60% 0.118 184.704) 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-gradient-to: color-mix(in oklab, var(--color-teal-600) 90%, transparent);
+    }
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .bg-clip-text {
+    background-clip: text;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-2\.5 {
+    padding: calc(var(--spacing) * 2.5);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-3\.5 {
+    padding: calc(var(--spacing) * 3.5);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+  .px-2\.5 {
+    padding-inline: calc(var(--spacing) * 2.5);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-3\.5 {
+    padding-inline: calc(var(--spacing) * 3.5);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-0\.5 {
+    padding-block: calc(var(--spacing) * 0.5);
+  }
+  .py-1 {
+    padding-block: var(--spacing);
+  }
+  .py-1\.5 {
+    padding-block: calc(var(--spacing) * 1.5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .py-2\.5 {
+    padding-block: calc(var(--spacing) * 2.5);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
+  }
+  .pt-3 {
+    padding-top: calc(var(--spacing) * 3);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+  .text-\[9px\] {
+    font-size: 9px;
+  }
+  .text-\[11px\] {
+    font-size: 11px;
+  }
+  .leading-relaxed {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+  }
+  .leading-snug {
+    --tw-leading: var(--leading-snug);
+    line-height: var(--leading-snug);
+  }
+  .leading-tight {
+    --tw-leading: var(--leading-tight);
+    line-height: var(--leading-tight);
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .tracking-wide {
+    --tw-tracking: var(--tracking-wide);
+    letter-spacing: var(--tracking-wide);
+  }
+  .tracking-wider {
+    --tw-tracking: var(--tracking-wider);
+    letter-spacing: var(--tracking-wider);
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .text-amber-300 {
+    color: var(--color-amber-300);
+  }
+  .text-amber-800 {
+    color: var(--color-amber-800);
+  }
+  .text-cyan-300 {
+    color: var(--color-cyan-300);
+  }
+  .text-emerald-100 {
+    color: var(--color-emerald-100);
+  }
+  .text-emerald-300 {
+    color: var(--color-emerald-300);
+  }
+  .text-emerald-400 {
+    color: var(--color-emerald-400);
+  }
+  .text-emerald-800 {
+    color: var(--color-emerald-800);
+  }
+  .text-emerald-900 {
+    color: var(--color-emerald-900);
+  }
+  .text-indigo-200 {
+    color: var(--color-indigo-200);
+  }
+  .text-rose-300 {
+    color: var(--color-rose-300);
+  }
+  .text-rose-400 {
+    color: var(--color-rose-400);
+  }
+  .text-rose-500 {
+    color: var(--color-rose-500);
+  }
+  .text-rose-600 {
+    color: var(--color-rose-600);
+  }
+  .text-rose-900 {
+    color: var(--color-rose-900);
+  }
+  .text-sky-100 {
+    color: var(--color-sky-100);
+  }
+  .text-sky-300 {
+    color: var(--color-sky-300);
+  }
+  .text-sky-400 {
+    color: var(--color-sky-400);
+  }
+  .text-slate-300 {
+    color: var(--color-slate-300);
+  }
+  .text-slate-400 {
+    color: var(--color-slate-400);
+  }
+  .text-slate-500 {
+    color: var(--color-slate-500);
+  }
+  .text-slate-600 {
+    color: var(--color-slate-600);
+  }
+  .text-slate-700 {
+    color: var(--color-slate-700);
+  }
+  .text-slate-800 {
+    color: var(--color-slate-800);
+  }
+  .text-slate-900 {
+    color: var(--color-slate-900);
+  }
+  .text-transparent {
+    color: transparent;
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .text-white\/90 {
+    color: color-mix(in srgb, #fff 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-white) 90%, transparent);
+    }
+  }
+  .text-yellow-300 {
+    color: var(--color-yellow-300);
+  }
+  .text-yellow-400 {
+    color: var(--color-yellow-400);
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .shadow {
+    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-inner {
+    --tw-shadow: inset 0 2px 4px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-xl {
+    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .blur {
+    --tw-blur: blur(8px);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .backdrop-blur-md {
+    --tw-backdrop-blur: blur(var(--blur-md));
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
+  .backdrop-blur-sm {
+    --tw-backdrop-blur: blur(var(--blur-sm));
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
+  .transition {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .duration-100 {
+    --tw-duration: 100ms;
+    transition-duration: 100ms;
+  }
+  .ease-in-out {
+    --tw-ease: var(--ease-in-out);
+    transition-timing-function: var(--ease-in-out);
+  }
+  @media (hover: hover) {
+    .hover\:border-sky-400:hover {
+      border-color: var(--color-sky-400);
+    }
+    .hover\:bg-rose-700:hover {
+      background-color: var(--color-rose-700);
+    }
+    .hover\:bg-sky-50\/70:hover {
+      background-color: color-mix(in srgb, oklch(97.7% 0.013 236.62) 70%, transparent);
+    }
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-sky-50\/70:hover {
+        background-color: color-mix(in oklab, var(--color-sky-50) 70%, transparent);
+      }
+    }
+    .hover\:bg-slate-700:hover {
+      background-color: var(--color-slate-700);
+    }
+    .hover\:from-amber-500:hover {
+      --tw-gradient-from: var(--color-amber-500);
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+    .hover\:to-orange-600:hover {
+      --tw-gradient-to: var(--color-orange-600);
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+  .focus\:border-amber-400:focus {
+    border-color: var(--color-amber-400);
+  }
+  .focus\:outline-none:focus {
+    --tw-outline-style: none;
+    outline-style: none;
+  }
+  .active\:bg-amber-500:active {
+    background-color: var(--color-amber-500);
+  }
+  .active\:bg-emerald-400:active {
+    background-color: var(--color-emerald-400);
+  }
+  .active\:text-slate-900:active {
+    color: var(--color-slate-900);
+  }
+  @media (width >= 40rem) {
+    .sm\:block {
+      display: block;
+    }
+    .sm\:inline {
+      display: inline;
+    }
+  }
+  @media (width >= 48rem) {
+    .md\:h-10 {
+      height: calc(var(--spacing) * 10);
+    }
+    .md\:h-18 {
+      height: calc(var(--spacing) * 18);
+    }
+    .md\:h-22 {
+      height: calc(var(--spacing) * 22);
+    }
+    .md\:w-10 {
+      width: calc(var(--spacing) * 10);
+    }
+    .md\:w-18 {
+      width: calc(var(--spacing) * 18);
+    }
+    .md\:w-22 {
+      width: calc(var(--spacing) * 22);
+    }
+    .md\:max-w-\[190px\] {
+      max-width: 190px;
+    }
+    .md\:gap-3 {
+      gap: calc(var(--spacing) * 3);
+    }
+    .md\:p-4 {
+      padding: calc(var(--spacing) * 4);
+    }
+    .md\:p-6 {
+      padding: calc(var(--spacing) * 6);
+    }
+    .md\:p-7 {
+      padding: calc(var(--spacing) * 7);
+    }
+    .md\:px-6 {
+      padding-inline: calc(var(--spacing) * 6);
+    }
+    .md\:text-2xl {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+    .md\:text-3xl {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+    .md\:text-5xl {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+    .md\:text-base {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+    .md\:text-lg {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
+    .md\:text-sm {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  @media (width >= 64rem) {
+    .lg\:block {
+      display: block;
+    }
+  }
+}
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-gradient-position {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-via {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-to {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+@property --tw-gradient-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-via-stops {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-gradient-from-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+@property --tw-gradient-via-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+@property --tw-gradient-to-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-drop-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-drop-shadow-size {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-blur {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-brightness {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-contrast {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-grayscale {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-hue-rotate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-invert {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-opacity {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-saturate {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-backdrop-sepia {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ease {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-space-y-reverse: 0;
+      --tw-border-style: solid;
+      --tw-gradient-position: initial;
+      --tw-gradient-from: #0000;
+      --tw-gradient-via: #0000;
+      --tw-gradient-to: #0000;
+      --tw-gradient-stops: initial;
+      --tw-gradient-via-stops: initial;
+      --tw-gradient-from-position: 0%;
+      --tw-gradient-via-position: 50%;
+      --tw-gradient-to-position: 100%;
+      --tw-leading: initial;
+      --tw-font-weight: initial;
+      --tw-tracking: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-blur: initial;
+      --tw-brightness: initial;
+      --tw-contrast: initial;
+      --tw-grayscale: initial;
+      --tw-hue-rotate: initial;
+      --tw-invert: initial;
+      --tw-opacity: initial;
+      --tw-saturate: initial;
+      --tw-sepia: initial;
+      --tw-drop-shadow: initial;
+      --tw-drop-shadow-color: initial;
+      --tw-drop-shadow-alpha: 100%;
+      --tw-drop-shadow-size: initial;
+      --tw-backdrop-blur: initial;
+      --tw-backdrop-brightness: initial;
+      --tw-backdrop-contrast: initial;
+      --tw-backdrop-grayscale: initial;
+      --tw-backdrop-hue-rotate: initial;
+      --tw-backdrop-invert: initial;
+      --tw-backdrop-opacity: initial;
+      --tw-backdrop-saturate: initial;
+      --tw-backdrop-sepia: initial;
+      --tw-duration: initial;
+      --tw-ease: initial;
+    }
+  }
+}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0f172a;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        h1, h2, h3, .font-game {
+            font-family: 'Fredoka', sans-serif;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+        .btn-game {
+            transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 5px 0 rgba(0, 0, 0, 0.25);
+        }
+        .btn-game:active:not(:disabled) {
+            transform: translateY(4px);
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+        }
+        .btn-game:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+        .custom-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 8px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 8px;
+        }
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+        }
+        .animate-float {
+            animation: floatSlow 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="w-screen h-screen relative flex items-center justify-center bg-slate-900">
+
+    <!-- CANVAS LINTASAN PSEUDO-3D -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- HUD (HEADS-UP DISPLAY) SAAT BERMAIN -->
+    <div id="hudContainer" class="hidden absolute top-0 left-0 right-0 p-2.5 md:p-4 pointer-events-none z-10 flex flex-col gap-2 max-w-6xl mx-auto">
+        <div class="flex flex-wrap items-center justify-between gap-2 bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-white px-3.5 py-2 rounded-2xl shadow-xl">
+            <!-- Info Pemain -->
+            <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-slate-900 font-bold text-lg shadow-inner">
+                    🏎️
+                </div>
+                <div>
+                    <div id="hudName" class="font-bold text-xs md:text-sm leading-tight text-amber-300 truncate max-w-[120px] md:max-w-[190px]">Nama Siswa</div>
+                    <div id="hudClass" class="text-[11px] text-slate-300 font-medium">Kelas XII</div>
+                </div>
+            </div>
+
+            <!-- Statistik Tengah & Kanan -->
+            <div class="flex items-center gap-1.5 md:gap-3">
+                <!-- Progres Pos -->
+                <div class="bg-slate-800/90 border border-slate-700 px-2.5 py-1 rounded-xl text-center">
+                    <div class="text-[9px] uppercase tracking-wider text-slate-400 font-semibold">Soal</div>
+                    <div class="font-game text-xs md:text-sm font-bold text-sky-400"><span id="hudPos">1</span> / 30</div>
+                </div>
+
+                <!-- Koin -->
+                <div class="bg-slate-800/90 border border-slate-700 px-2.5 py-1 rounded-xl flex items-center gap-1.5">
+                    <span class="text-base">🪙</span>
+                    <div>
+                        <div class="text-[9px] uppercase tracking-wider text-slate-400 font-semibold">Koin</div>
+                        <div id="hudCoins" class="font-game text-xs md:text-sm font-bold text-yellow-400">0</div>
+                    </div>
+                </div>
+
+                <!-- Kecepatan -->
+                <div class="hidden sm:block bg-slate-800/90 border border-slate-700 px-2.5 py-1 rounded-xl text-center">
+                    <div class="text-[9px] uppercase tracking-wider text-slate-400 font-semibold">Kecepatan</div>
+                    <div class="font-game text-xs md:text-sm font-bold text-rose-400"><span id="hudSpeed">0</span> km/j</div>
+                </div>
+
+                <!-- Skor Total -->
+                <div class="bg-gradient-to-r from-emerald-600/90 to-teal-600/90 border border-emerald-400/40 px-3 py-1 rounded-xl text-center shadow">
+                    <div class="text-[9px] uppercase tracking-wider text-emerald-100 font-semibold">Total Skor</div>
+                    <div id="hudScore" class="font-game text-sm md:text-base font-bold text-white">0</div>
+                </div>
+
+                <!-- Tombol Musik & Suara -->
+                <button id="btnMute" class="pointer-events-auto w-9 h-9 md:w-10 md:h-10 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 flex items-center justify-center text-base transition cursor-pointer" title="Musik & Efek Suara Hidup/Mati">
+                    🔊
+                </button>
+            </div>
+        </div>
+
+        <!-- Bar Jarak Menuju Pos Berikutnya & Indikator Medan + Cuaca -->
+        <div class="bg-slate-900/80 backdrop-blur-sm border border-slate-700/60 px-3.5 py-1.5 rounded-xl flex items-center gap-2.5 shadow-md">
+            <span id="zoneBadge" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 whitespace-nowrap">
+                ⛰️ Bukit Naik-Turun
+            </span>
+            <span id="weatherBadge" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 whitespace-nowrap">
+                ☀️ Cerah
+            </span>
+            <div class="flex-1 h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700 relative">
+                <div id="distanceBar" class="h-full bg-gradient-to-r from-amber-400 via-orange-500 to-rose-500 transition-all duration-100 rounded-full" style="width: 0%;"></div>
+            </div>
+            <span class="text-[11px] font-bold text-amber-300 whitespace-nowrap">🏁 Pos <span id="nextPosLabel">1</span></span>
+        </div>
+    </div>
+
+    <!-- KONTROL SENTUH & TOMBOL LAYAR (KIRI, KANAN, GAS MANUAL) -->
+    <div id="touchControls" class="hidden absolute bottom-4 left-0 right-0 px-4 md:px-6 flex justify-between items-end pointer-events-none z-10">
+        <!-- Tombol Belok Kiri & Kanan -->
+        <div class="flex gap-3 pointer-events-auto">
+            <button id="btnLeft" class="w-16 h-16 md:w-18 md:h-18 rounded-2xl bg-slate-900/85 active:bg-amber-500 border-2 border-white/30 text-white text-2xl flex items-center justify-center shadow-2xl backdrop-blur-md">
+                ◀
+            </button>
+            <button id="btnRight" class="w-16 h-16 md:w-18 md:h-18 rounded-2xl bg-slate-900/85 active:bg-amber-500 border-2 border-white/30 text-white text-2xl flex items-center justify-center shadow-2xl backdrop-blur-md">
+                ▶
+            </button>
+        </div>
+
+
+        <!-- Tombol Pedal Gas Manual -->
+        <div class="flex gap-3 pointer-events-auto">
+            <button id="btnGas" class="w-20 h-20 md:w-22 md:h-22 rounded-2xl bg-emerald-600/90 active:bg-emerald-400 active:text-slate-900 border-2 border-emerald-300 text-white font-game font-bold text-sm flex flex-col items-center justify-center shadow-2xl backdrop-blur-md">
+                <span class="text-2xl">⬆️</span>
+                <span>GAS</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- 1. LAYAR AWAL (START SCREEN) -->
+    <div id="startScreen" class="absolute inset-0 z-20 flex items-center justify-center p-4 bg-slate-900/75 backdrop-blur-sm overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 md:p-7 shadow-2xl border-4 border-amber-400 relative my-auto">
+            <div class="text-center mb-5">
+                <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-800 text-xs font-bold px-3.5 py-1 rounded-full mb-2.5 border border-amber-300">
+                    <span>📚 BAHASA INDONESIA KELAS XII</span>
+                    <span>•</span>
+                    <span>TEKS ESAI</span>
+                </div>
+                <div class="text-4xl md:text-5xl mb-1.5 animate-float">🏎️🌧️⛰️</div>
+                <h1 class="text-2xl md:text-3xl font-bold text-slate-800 leading-tight">
+                    Petualangan Esai:<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">Tantangan Jalanan</span>
+                </h1>
+                <p class="text-slate-500 text-xs md:text-sm mt-1.5">
+                    Kendalikan mobilmu melintasi jalan berkelok, bukit naik-turun, jembatan sungai, dan hujan deras untuk menyelesaikan 30 soal Teks Esai!
+                </p>
+            </div>
+
+            <!-- Form Identitas Siswa -->
+            <div class="space-y-3.5 mb-5">
+                <div>
+                    <label for="inputName" class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">
+                        Nama Lengkap Siswa <span class="text-rose-500">*</span>
+                    </label>
+                    <input type="text" id="inputName" placeholder="Masukkan nama lengkapmu..." autocomplete="off"
+                        class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none text-slate-800 font-semibold transition">
+                </div>
+                <div>
+                    <label for="inputClass" class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">
+                        Kelas <span class="text-rose-500">*</span>
+                    </label>
+                    <input type="text" id="inputClass" placeholder="Contoh: XII IPA 1 / XII IPS 2" autocomplete="off"
+                        class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none text-slate-800 font-semibold transition">
+                </div>
+                <p id="formError" class="hidden text-xs font-semibold text-rose-600 bg-rose-50 px-3 py-2 rounded-lg border border-rose-200">
+                    ⚠️ Mohon isi Nama Lengkap dan Kelas terlebih dahulu sebelum memulai permainan!
+                </p>
+            </div>
+
+            <!-- Panduan Singkat Kontrol & Aturan -->
+            <div class="bg-slate-50 rounded-2xl p-3 mb-5 border border-slate-200/80 text-xs text-slate-600 space-y-2">
+                <div class="font-bold text-slate-700">🎮 Petunjuk Kontrol & Aturan Main:</div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="bg-white p-2 rounded-xl border border-slate-100">
+                        <b>Tahan ▲ / W / GAS</b>: Melaju<br>
+                        <b>◀ ▶ / A D</b>: Belok kiri-kanan
+                    </div>
+                    <div class="bg-white p-2 rounded-xl border border-slate-100">
+                        🪙 Koin Emas: <b>+10 poin</b><br>
+                        🏁 Soal Benar: <b>+100 poin</b>
+                    </div>
+                </div>
+                <div class="text-[11px] text-rose-600 font-semibold bg-rose-50 px-2.5 py-1.5 rounded-lg border border-rose-200">
+                    🔒 Perhatian: Jangan membuka tab/jendela baru saat bermain atau permainan akan otomatis diulang dari awal!
+                </div>
+            </div>
+
+            <!-- Tombol Mulai (Aktif hanya jika Nama & Kelas terisi) -->
+            <div>
+                <button id="btnStartGame" disabled class="btn-game w-full py-3.5 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-900 font-game font-bold text-base md:text-lg tracking-wide cursor-pointer">
+                    🚀 MULAI BERMAIN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL PERINGATAN ANTI-KECURANGAN (TAB / JENDELA BARU) -->
+    <div id="cheatModal" class="hidden absolute inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border-4 border-rose-500 text-center">
+            <div class="text-5xl mb-3">🚨</div>
+            <h2 class="text-xl md:text-2xl font-bold text-rose-600 mb-2">Perpindahan Jendela Terdeteksi!</h2>
+            <p class="text-slate-600 text-sm leading-relaxed mb-5">
+                Kamu terdeteksi membuka tab baru, jendela baru, atau meninggalkan layar permainan saat sesi berlangsung. Sesuai aturan kejujuran, permainan otomatis diulang dari awal.
+            </p>
+            <button id="btnAcknowledgeCheat" class="btn-game w-full py-3 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-game font-bold text-base cursor-pointer">
+                Kembali ke Layar Awal
+            </button>
+        </div>
+    </div>
+
+    <!-- 2. MODAL KUIS POS SOAL (QUIZ MODAL - TANPA KUNCI JAWABAN) -->
+    <div id="quizModal" class="hidden absolute inset-0 z-30 flex items-center justify-center p-3 md:p-6 bg-slate-900/80 backdrop-blur-md">
+        <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[92vh] flex flex-col shadow-2xl border-4 border-sky-400 overflow-hidden">
+            <div class="bg-gradient-to-r from-sky-500 to-indigo-600 px-5 py-3.5 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <span class="bg-white/20 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase">
+                        🏁 Pos Soal <span id="quizNumber">1</span> / 30
+                    </span>
+                    <span class="text-xs text-sky-100 hidden sm:inline">Materi: Teks Esai</span>
+                </div>
+                <div class="text-xs font-bold bg-amber-400 text-slate-900 px-3 py-1 rounded-full">
+                    +100 Poin Jika Benar
+                </div>
+            </div>
+
+            <div class="p-5 md:p-6 overflow-y-auto custom-scroll flex-1 space-y-4">
+                <div id="quizQuestionText" class="text-slate-800 font-semibold text-base md:text-lg leading-relaxed bg-slate-50 p-4 rounded-2xl border border-slate-200 whitespace-pre-line">
+                    Pertanyaan akan muncul di sini...
+                </div>
+
+                <div id="quizOptionsContainer" class="space-y-2.5"></div>
+
+                <div id="quizFeedbackBox" class="hidden rounded-2xl p-4 border-2 transition-all">
+                    <div id="quizFeedbackTitle" class="font-game font-bold text-lg mb-1"></div>
+                    <p id="quizFeedbackExplanation" class="text-sm leading-relaxed"></p>
+                </div>
+            </div>
+
+            <div id="quizFooter" class="hidden px-6 py-3.5 bg-slate-50 border-t border-slate-200 flex justify-end">
+                <button id="btnNextCheckpoint" class="btn-game px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-game font-bold text-base cursor-pointer flex items-center gap-2">
+                    <span id="btnNextText">Lanjut Berkendara</span>
+                    <span>🏎️💨</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. LAYAR AKHIR (FINISH SCREEN) -->
+    <div id="finishScreen" class="hidden absolute inset-0 z-30 flex items-center justify-center p-4 bg-slate-900/85 backdrop-blur-md overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 md:p-7 shadow-2xl border-4 border-emerald-400 text-center relative my-auto">
+            <div class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold px-4 py-1 rounded-full mb-2 border border-emerald-300">
+                🏆 GARIS FINIS TERCAPAI!
+            </div>
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Laporan Hasil Belajar</h2>
+            <p class="text-slate-500 text-sm mt-1">Selamat! Kamu telah menaklukkan seluruh 30 Pos Teks Esai.</p>
+
+            <div class="mt-4 bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-2xl p-5 shadow-lg border border-slate-700">
+                <div class="text-lg font-bold text-amber-300" id="finalName">Nama Siswa</div>
+                <div class="text-xs text-slate-300 font-medium mb-3" id="finalClass">Kelas XII</div>
+
+                <div class="py-2.5 px-4 rounded-xl bg-white/10 border border-white/10 mb-3">
+                    <div class="text-xs uppercase tracking-wider text-slate-300">Total Skor Akhir</div>
+                    <div class="text-4xl font-game font-bold text-emerald-400 mt-0.5" id="finalScore">0</div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3 text-left">
+                    <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                        <div class="text-xs text-slate-400">Jawaban Benar</div>
+                        <div class="font-game text-lg font-bold text-sky-400"><span id="finalCorrect">0</span> / 30 Soal</div>
+                    </div>
+                    <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                        <div class="text-xs text-slate-400">Koin Terkumpul</div>
+                        <div class="font-game text-lg font-bold text-yellow-400">🪙 <span id="finalCoins">0</span> Koin</div>
+                    </div>
+                </div>
+
+                <div class="mt-3 pt-3 border-t border-slate-700/80 flex items-center justify-between">
+                    <span class="text-xs text-slate-400">Predikat Nilai:</span>
+                    <span id="finalPredicate" class="text-xs font-bold px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                        Sangat Kompeten
+                    </span>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-400 mt-3 mb-4">
+                💡 Silakan tangkap layar (screenshot) laporan hasil ini untuk diserahkan kepada guru.
+            </p>
+
+            <div>
+                <button id="btnPlayAgain" class="btn-game w-full py-3.5 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-900 font-game font-bold text-sm md:text-base cursor-pointer">
+                    🔄 Main Lagi
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // =========================================================================
+        // 1. BANK 30 SOAL PILIHAN GANDA TEKS ESAI KELAS XII (TINGKAT MUDAH)
+        // =========================================================================
+        const questions = [
+            {
+                question: "1. Karangan prosa yang membahas suatu masalah secara sepintas lalu dari sudut pandang pribadi penulisnya disebut...",
+                options: [
+                    "A. Teks Esai",
+                    "B. Teks Laporan Hasil Observasi",
+                    "C. Teks Prosedur Kompleks",
+                    "D. Teks Negosiasi",
+                    "E. Teks Biografi"
+                ],
+                answer: 0
+            },
+            {
+                question: "2. Sifat utama penulisan teks esai adalah subjektif. Arti kata 'subjektif' dalam teks esai adalah...",
+                options: [
+                    "A. Ditulis berdasarkan hasil laboratorium semata",
+                    "B. Berdasarkan pandangan, opini, dan perasaan pribadi penulisnya",
+                    "C. Tidak boleh memuat pendapat penulis sama sekali",
+                    "D. Harus menyalin seluruh isi buku pelajaran",
+                    "E. Ditulis oleh banyak orang secara anonim"
+                ],
+                answer: 1
+            },
+            {
+                question: "3. Berikut ini yang merupakan struktur teks esai secara berurutan adalah...",
+                options: [
+                    "A. Orientasi – Komplikasi – Resolusi",
+                    "B. Pendahuluan – Isi (Pembahasan) – Penutup",
+                    "C. Abstrak – Krisis – Koda",
+                    "D. Tesis – Langkah-langkah – Penegasan",
+                    "E. Pernyataan Umum – Deretan Penjelas – Interpretasi"
+                ],
+                answer: 1
+            },
+            {
+                question: "4. Bagian pendahuluan dalam teks esai biasanya berisi...",
+                options: [
+                    "A. Daftar pustaka dan lampiran foto",
+                    "B. Kesimpulan akhir dan saran penutup",
+                    "C. Pengenalan topik masalah dan pernyataan pendapat (tesis) penulis",
+                    "D. Biodata lengkap pencetak buku",
+                    "E. Ringkasan seluruh bab novel"
+                ],
+                answer: 2
+            },
+            {
+                question: "5. Bagian teks esai yang berisi uraian argumen, alasan, serta contoh-contoh untuk mendukung pendapat penulis adalah bagian...",
+                options: [
+                    "A. Judul",
+                    "B. Pendahuluan",
+                    "C. Isi atau Tubuh Esai",
+                    "D. Penutup",
+                    "E. Daftar Isi"
+                ],
+                answer: 2
+            },
+            {
+                question: "6. Bagian akhir dari sebuah teks esai yang berisi rangkuman gagasan atau penegasan ulang disebut...",
+                options: [
+                    "A. Pembuka",
+                    "B. Penutup (Simpulan)",
+                    "C. Latar Belakang",
+                    "D. Orientasi",
+                    "E. Sinopsis"
+                ],
+                answer: 1
+            },
+            {
+                question: "7. Perbedaan mendasar antara kritik sastra dan esai terletak pada objek kajiannya. Objek kajian kritik sastra adalah...",
+                options: [
+                    "A. Bencana alam dan cuaca",
+                    "B. Karya sastra seperti puisi, cerpen, novel, dan drama",
+                    "C. Laporan keuangan perusahaan",
+                    "D. Berita olahraga internasional",
+                    "E. Resep masakan tradisional"
+                ],
+                answer: 1
+            },
+            {
+                question: "8. Jika kritik sastra menilai baik-buruknya karya secara objektif disertai data, maka esai ditulis dengan gaya bahasa yang...",
+                options: [
+                    "A. Kaku seperti bahasa undang-undang",
+                    "B. Luwes, personal, dan mengalir seperti bercerita",
+                    "C. Penuh dengan rumus matematika",
+                    "D. Menggunakan bahasa sandi rahasia",
+                    "E. Singkat seperti pesan telegram"
+                ],
+                answer: 1
+            },
+            {
+                question: "9. Jenis esai yang bertujuan melukiskan atau menggambarkan suatu tempat, suasana, atau benda secara hidup disebut...",
+                options: [
+                    "A. Esai deskriptif",
+                    "B. Esai tajuk",
+                    "C. Esai kritik",
+                    "D. Esai cukilan watak",
+                    "E. Esai biografi"
+                ],
+                answer: 0
+            },
+            {
+                question: "10. Esai yang ditulis oleh redaksi surat kabar atau majalah untuk menyatakan pandangan terhadap isu hangat di masyarakat disebut...",
+                options: [
+                    "A. Esai pribadi",
+                    "B. Esai tajuk",
+                    "C. Esai deskriptif",
+                    "D. Esai watak",
+                    "E. Esai sastra"
+                ],
+                answer: 1
+            },
+            {
+                question: "11. Esai yang menceritakan pengalaman, perasaan, dan perenungan diri penulisnya sendiri (sering memakai kata 'saya' atau 'aku') disebut...",
+                options: [
+                    "A. Esai pribadi",
+                    "B. Esai berita",
+                    "C. Esai iklan",
+                    "D. Esai laporan",
+                    "E. Esai kamus"
+                ],
+                answer: 0
+            },
+            {
+                question: "12. Esai yang menguraikan sisi kepribadian atau karakter unik dari seseorang disebut...",
+                options: [
+                    "A. Esai cukilan watak",
+                    "B. Esai tajuk",
+                    "C. Esai deskriptif",
+                    "D. Esai alam",
+                    "E. Esai prosedur"
+                ],
+                answer: 0
+            },
+            {
+                question: "13. Judul teks esai sebaiknya dibuat dengan kriteria berikut, KECUALI...",
+                options: [
+                    "A. Singkat dan padat",
+                    "B. Menarik perhatian pembaca",
+                    "C. Menggambarkan isi topik tulisan",
+                    "D. Terdiri atas lima paragraf panjang",
+                    "E. Memancing rasa ingin tahu"
+                ],
+                answer: 3
+            },
+            {
+                question: "14. Bacalah kutipan esai berikut!\n\"Buku adalah jendela dunia yang membuka cakrawala berpikir kita.\"\nMajas yang digunakan pada kalimat tersebut adalah...",
+                options: [
+                    "A. Metafora",
+                    "B. Ironi",
+                    "C. Sarkasme",
+                    "D. Pleonasme",
+                    "E. Paradoks"
+                ],
+                answer: 0
+            },
+            {
+                question: "15. Manakah di bawah ini yang merupakan penulisan kata BAKU yang tepat untuk digunakan dalam teks esai?",
+                options: [
+                    "A. Aktifitas",
+                    "B. Kreativitas",
+                    "C. Apotik",
+                    "D. Praktek",
+                    "E. Sistim"
+                ],
+                answer: 1
+            },
+            {
+                question: "16. Manakah kata di bawah ini yang penulisan ejaannya TIDAK BAKU?",
+                options: [
+                    "A. Analisis",
+                    "B. Nasihat",
+                    "C. Ijazah",
+                    "D. Resiko",
+                    "E. Kualitas"
+                ],
+                answer: 3
+            },
+            {
+                question: "17. Perhatikan kalimat berikut!\n\"Membaca buku setiap hari dapat memperluas wawasan. Oleh karena itu, pelajar sebaiknya membiasakan diri membaca sejak dini.\"\nKata penghubung 'Oleh karena itu' menyatakan hubungan...",
+                options: [
+                    "A. Pertentangan",
+                    "B. Akibat / Simpulan",
+                    "C. Pilihan",
+                    "D. Urutan waktu",
+                    "E. Syarat"
+                ],
+                answer: 1
+            },
+            {
+                question: "18. Kalimat manakah yang menggunakan konjungsi pertentangan yang tepat?",
+                options: [
+                    "A. Hujan turun sangat deras, sehingga jalanan tergenang air.",
+                    "B. Teknologi memudahkan komunikasi. Namun, interaksi tatap muka tetap penting.",
+                    "C. Ia rajin belajar agar lulus ujian dengan nilai memuaskan.",
+                    "D. Setelah sarapan pagi, adik berangkat ke sekolah.",
+                    "E. Ibu membeli sayur dan buah di pasar tradisional."
+                ],
+                answer: 1
+            },
+            {
+                question: "19. Bacalah paragraf esai berikut!\n\"Sampah plastik menjadi ancaman serius bagi kelestarian laut. Banyak hewan laut mati karena tidak sengaja menelan limbah plastik. Sudah saatnya kita mengurangi penggunaan kantong plastik sekali pakai.\"\nIde pokok paragraf tersebut adalah...",
+                options: [
+                    "A. Cara membuat kerajinan dari botol plastik",
+                    "B. Ancaman sampah plastik bagi kelestarian laut dan ajakan menguranginya",
+                    "C. Jenis-jenis ikan yang hidup di samudra",
+                    "D. Harga kantong plastik di pasar swalayan",
+                    "E. Keuntungan pabrik plastik bagi ekonomi"
+                ],
+                answer: 1
+            },
+            {
+                question: "20. Kalimat \"Sudah saatnya kita mengurangi penggunaan kantong plastik sekali pakai\" pada soal nomor 19 bersifat...",
+                options: [
+                    "A. Persuasif (ajakan)",
+                    "B. Interogatif (pertanyaan)",
+                    "C. Larangan keras",
+                    "D. Sindiran kasar",
+                    "E. Perintah militer"
+                ],
+                answer: 0
+            },
+            {
+                question: "21. Sastrawan Indonesia yang terkenal sebagai penulis esai legendaris melalui kumpulan esainya yang berjudul 'Catatan Pinggir' adalah...",
+                options: [
+                    "A. Goenawan Mohamad",
+                    "B. Chairil Anwar",
+                    "C. Marah Rusli",
+                    "D. Sutan Takdir Alisjahbana",
+                    "E. Amir Hamzah"
+                ],
+                answer: 0
+            },
+            {
+                question: "22. Langkah pertama yang harus dilakukan ketika hendak menulis sebuah teks esai adalah...",
+                options: [
+                    "A. Menulis daftar pustaka terlebih dahulu",
+                    "B. Menentukan topik atau tema yang menarik untuk dibahas",
+                    "C. Membuat kesimpulan akhir sebelum ada isinya",
+                    "D. Mencetak tulisan ke dalam bentuk buku",
+                    "E. Menghitung jumlah huruf dalam paragraf"
+                ],
+                answer: 1
+            },
+            {
+                question: "23. Agar gagasan dalam esai mudah dipahami pembaca, paragraf-paragraf di dalamnya harus disusun secara...",
+                options: [
+                    "A. Acak dan melompat-lompat",
+                    "B. Runtut, logis, dan padu (koheren)",
+                    "C. Terpisah tanpa hubungan makna",
+                    "D. Menggunakan bahasa asing seluruhnya",
+                    "E. Berulang-ulang kalimat yang sama"
+                ],
+                answer: 1
+            },
+            {
+                question: "24. Perhatikan kalimat berikut!\n\"Para siswa-siswa kelas XII sedang berdiskusi tentang teks esai.\"\nAgar menjadi kalimat efektif, perbaikan yang tepat adalah...",
+                options: [
+                    "A. Para siswa kelas XII sedang berdiskusi tentang teks esai.",
+                    "B. Para-para siswa kelas XII sedang berdiskusi tentang teks esai.",
+                    "C. Siswa-siswa para kelas XII sedang berdiskusi tentang teks esai.",
+                    "D. Kepada para siswa-siswa kelas XII sedang berdiskusi teks esai.",
+                    "E. Semua para siswa-siswa kelas XII berdiskusi teks esai."
+                ],
+                answer: 0
+            },
+            {
+                question: "25. Dalam teks esai, kata kerja yang menunjukkan aktivitas pikiran atau perasaan (seperti merenungkan, merasakan, memahami) disebut...",
+                options: [
+                    "A. Kata kerja mental",
+                    "B. Kata kerja fisik",
+                    "C. Kata benda abstrak",
+                    "D. Kata sifat",
+                    "E. Kata bilangan"
+                ],
+                answer: 0
+            },
+            {
+                question: "26. Perhatikan kalimat rumpang berikut!\n\"Olahraga secara rutin sangat baik untuk kesehatan tubuh. _____, banyak orang masih malas melakukannya karena alasan sibuk.\"\nKonjungsi yang tepat untuk melengkapi bagian rumpang tersebut adalah...",
+                options: [
+                    "A. Akan tetapi",
+                    "B. Oleh sebab itu",
+                    "C. Dengan demikian",
+                    "D. Selanjutnya",
+                    "E. Misalnya"
+                ],
+                answer: 0
+            },
+            {
+                question: "27. Pernyataan manakah yang merupakan contoh kalimat opini (pendapat pribadi) dalam teks esai?",
+                options: [
+                    "A. Indonesia merdeka pada tanggal 17 Agustus 1945.",
+                    "B. Air mendidih pada suhu 100 derajat Celcius.",
+                    "C. Menurut saya, kebahagiaan sejati lahir dari rasa syukur atas hal-hal sederhana.",
+                    "D. Ibu kota Provinsi Jawa Barat adalah Kota Bandung.",
+                    "E. Satu tahun terdiri atas dua belas bulan."
+                ],
+                answer: 2
+            },
+            {
+                question: "28. Apa tujuan penulis menyertakan contoh nyata dalam bagian isi teks esai?",
+                options: [
+                    "A. Untuk memperpanjang halaman saja",
+                    "B. Untuk memperkuat argumen agar lebih konkret dan meyakinkan pembaca",
+                    "C. Untuk menggantikan bagian judul",
+                    "D. Agar pembaca merasa bingung",
+                    "E. Untuk menyembunyikan pendapat penulis"
+                ],
+                answer: 1
+            },
+            {
+                question: "29. Penulisan kata depan 'di' yang benar dalam kalimat esai berikut adalah...",
+                options: [
+                    "A. Buku itu diletakkan diatas meja belajar.",
+                    "B. Kami berdiskusi di perpustakaan sekolah.",
+                    "C. Tulisan tersebut dimuat di majalah dinding dan dibaca disekolah.",
+                    "D. Ia tinggal dikota Yogyakarta sejak kecil.",
+                    "E. Acara seminar diadakan diaula utama."
+                ],
+                answer: 1
+            },
+            {
+                question: "30. Kegiatan memeriksa kembali ejaan, tanda baca, pilihan kata, dan kepaduan paragraf setelah selesai menulis esai disebut tahap...",
+                options: [
+                    "A. Penyuntingan (Editing)",
+                    "B. Pencetakan",
+                    "C. Pemasaran",
+                    "D. Penjilidan",
+                    "E. Penerjemahan"
+                ],
+                answer: 0
+            }
+        ];
+
+        // =========================================================================
+        // 2. SISTEM MUSIK LATAR CERIA & EFEK SUARA (WEB AUDIO API)
+        // =========================================================================
+        class AudioEngine {
+            constructor() {
+                this.ctx = null;
+                this.muted = false;
+                this.bgmInterval = null;
+                this.bgmStep = 0;
+                this.isPlayingBgm = false;
+            }
+
+            init() {
+                if (!this.ctx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    if (AudioContext) this.ctx = new AudioContext();
+                }
+                if (this.ctx && this.ctx.state === 'suspended') {
+                    this.ctx.resume();
+                }
+            }
+
+            startBGM() {
+                this.init();
+                if (this.isPlayingBgm) return;
+                this.isPlayingBgm = true;
+
+                const melody = [
+                    523.25, 659.25, 783.99, 659.25,
+                    587.33, 698.46, 880.00, 698.46,
+                    659.25, 783.99, 1046.50, 783.99,
+                    587.33, 659.25, 523.25, 0
+                ];
+                const bassLine = [
+                    130.81, 130.81, 196.00, 196.00,
+                    146.83, 146.83, 220.00, 220.00,
+                    164.81, 164.81, 261.63, 261.63,
+                    196.00, 196.00, 130.81, 196.00
+                ];
+
+                this.bgmInterval = setInterval(() => {
+                    if (this.muted || !this.ctx || gameState.status === 'START') return;
+                    const now = this.ctx.currentTime;
+                    const idx = this.bgmStep % melody.length;
+                    const volScale = gameState.status === 'QUIZ' ? 0.35 : 1.0;
+
+                    const freq = melody[idx];
+                    if (freq > 0) {
+                        const osc = this.ctx.createOscillator();
+                        const gain = this.ctx.createGain();
+                        osc.type = 'triangle';
+                        osc.frequency.setValueAtTime(freq, now);
+                        gain.gain.setValueAtTime(0.055 * volScale, now);
+                        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+                        osc.connect(gain);
+                        gain.connect(this.ctx.destination);
+                        osc.start(now);
+                        osc.stop(now + 0.23);
+                    }
+
+                    const bFreq = bassLine[idx];
+                    if (bFreq > 0) {
+                        const bOsc = this.ctx.createOscillator();
+                        const bGain = this.ctx.createGain();
+                        bOsc.type = 'sine';
+                        bOsc.frequency.setValueAtTime(bFreq, now);
+                        bGain.gain.setValueAtTime(0.07 * volScale, now);
+                        bGain.gain.exponentialRampToValueAtTime(0.001, now + 0.24);
+                        bOsc.connect(bGain);
+                        bGain.connect(this.ctx.destination);
+                        bOsc.start(now);
+                        bOsc.stop(now + 0.25);
+                    }
+
+                    this.bgmStep++;
+                }, 260);
+            }
+
+            playStartJingle() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const notes = [523.25, 659.25, 783.99, 1046.50];
+                notes.forEach((f, i) => {
+                    const t = this.ctx.currentTime + i * 0.08;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'square';
+                    osc.frequency.setValueAtTime(f, t);
+                    gain.gain.setValueAtTime(0.08, t);
+                    gain.gain.exponentialRampToValueAtTime(0.001, t + 0.2);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(t);
+                    osc.stop(t + 0.21);
+                });
+            }
+
+            playCoin() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const now = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(987.77, now);
+                osc.frequency.setValueAtTime(1318.51, now + 0.06);
+                gain.gain.setValueAtTime(0.16, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+                osc.connect(gain);
+                gain.connect(this.ctx.destination);
+                osc.start(now);
+                osc.stop(now + 0.23);
+            }
+
+            playCrash() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const now = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(140, now);
+                osc.frequency.exponentialRampToValueAtTime(42, now + 0.32);
+                gain.gain.setValueAtTime(0.22, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.32);
+                osc.connect(gain);
+                gain.connect(this.ctx.destination);
+                osc.start(now);
+                osc.stop(now + 0.33);
+            }
+
+            playCorrect() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const notes = [523.25, 659.25, 783.99, 1046.50];
+                notes.forEach((freq, idx) => {
+                    const now = this.ctx.currentTime + idx * 0.08;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(freq, now);
+                    gain.gain.setValueAtTime(0.18, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.28);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.3);
+                });
+            }
+
+            playWrong() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const notes = [311.13, 261.63];
+                notes.forEach((freq, idx) => {
+                    const now = this.ctx.currentTime + idx * 0.15;
+                    const osc = this.ctx.createOscillator();
+                    const gain = this.ctx.createGain();
+                    osc.type = 'sawtooth';
+                    osc.frequency.setValueAtTime(freq, now);
+                    gain.gain.setValueAtTime(0.14, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+                    osc.connect(gain);
+                    gain.connect(this.ctx.destination);
+                    osc.start(now);
+                    osc.stop(now + 0.26);
+                });
+            }
+
+            playCheckpoint() {
+                if (this.muted) return;
+                this.init();
+                if (!this.ctx) return;
+                const now = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(587.33, now);
+                osc.frequency.setValueAtTime(880, now + 0.1);
+                gain.gain.setValueAtTime(0.16, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+                osc.connect(gain);
+                gain.connect(this.ctx.destination);
+                osc.start(now);
+                osc.stop(now + 0.36);
+            }
+        }
+        const audio = new AudioEngine();
+
+        // =========================================================================
+        // 3. KONFIGURASI LINTASAN PSEUDO-3D & HELPER GEOMETRI
+        // =========================================================================
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        function resizeCanvas() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        const SEGMENT_LENGTH = 200;
+        const ROAD_WIDTH = 1750;
+        const CAMERA_HEIGHT = 1000;
+        const CAMERA_DEPTH = 0.85;
+        const DRAW_DISTANCE = 130;
+        const SEGMENTS_PER_QUESTION = 480;
+
+        const gameState = {
+            status: 'START',
+            playerName: '',
+            playerClass: '',
+            currentQuestionIndex: 0,
+            coins: 0,
+            correctAnswers: 0,
+            score: 0,
+            position: 0,
+            playerX: 0,
+            speed: 0,
+            maxSpeed: 6800,
+            slowdownTimer: 0,
+            invulnerableTimer: 0,
+            shakeTimer: 0,
+            skyOffset: 0,
+            cloudTime: 0,
+            bgX: 0,
+            steerVel: 0,
+            tilt: 0,
+            grassBase: [78, 128, 44],
+            weather: 'SUNNY',
+            biome: 'VILLAGE',
+            lightningAlpha: 0,
+            rainDrops: [],
+            exhaustParticles: [],
+            floatingTexts: [],
+            confetti: [],
+            keys: { left: false, right: false, up: false }
+        };
+
+        let segments = [];
+
+        function findSegment(z) {
+            return segments[Math.floor(z / SEGMENT_LENGTH) % segments.length] || segments[0];
+        }
+
+        function projectPoint(p, cameraX, cameraY, cameraZ) {
+            p.camera.x = p.world.x - cameraX;
+            p.camera.y = p.world.y - cameraY;
+            p.camera.z = p.world.z - cameraZ;
+
+            if (p.camera.z <= CAMERA_DEPTH) {
+                p.screen.scale = 0;
+                p.screen.x = 0;
+                p.screen.y = 0;
+                p.screen.w = 0;
+                return;
+            }
+
+            p.screen.scale = CAMERA_DEPTH / p.camera.z;
+            p.screen.x = Math.round((width / 2) + (p.screen.scale * p.camera.x * width / 2));
+            p.screen.y = Math.round((height / 2) - (p.screen.scale * p.camera.y * height / 2));
+            p.screen.w = Math.round(p.screen.scale * ROAD_WIDTH * width / 2);
+        }
+
+        function buildTrackForQuestion(qIndex) {
+            segments = [];
+            gameState.position = 0;
+
+            const biomes = ['VILLAGE', 'RICEFIELD', 'RIVER'];
+            const weathers = ['SUNNY', 'DRIZZLE', 'RAIN'];
+            gameState.biome = biomes[qIndex % 3];
+            gameState.weather = weathers[(qIndex + Math.floor(qIndex / 2)) % 3];
+
+            updateBadgesUI();
+
+            const dir = qIndex % 2 === 0 ? 1 : -1;
+            const isFinalQ = qIndex === questions.length - 1;
+
+            // Warna dasar tanah per lokasi & cuaca (satu warna, tanpa belang)
+            const baseGrass = gameState.biome === 'RICEFIELD' ? [128, 170, 48]
+                : (gameState.biome === 'RIVER' ? [70, 126, 52] : [78, 128, 44]);
+            const wm = gameState.weather === 'RAIN' ? 0.4 : (gameState.weather === 'DRIZZLE' ? 0.15 : 0);
+            const grassBase = mixArr(baseGrass, [70, 88, 80], wm);
+            gameState.grassBase = grassBase;
+            const asphalt = mixArr([84, 92, 104], [50, 58, 70], wm * 1.2);
+            const water = mixArr([52, 128, 176], [60, 80, 100], wm);
+
+            for (let i = 0; i < SEGMENTS_PER_QUESTION + 50; i++) {
+                let curve = 0;
+                let y = 0;
+
+                if (i >= 20 && i < 120) {
+                    curve = 1.6 * dir * Math.sin(((i - 20) / 100) * Math.PI);
+                    y = Math.sin(((i - 20) / 100) * Math.PI) * 1250;
+                } else if (i >= 120 && i < 235) {
+                    curve = -1.8 * dir * Math.sin(((i - 120) / 115) * Math.PI);
+                    y = -Math.sin(((i - 120) / 115) * Math.PI) * 1100;
+                } else if (i >= 235 && i < 355) {
+                    curve = 1.7 * dir * Math.sin(((i - 235) / 120) * Math.PI);
+                    y = Math.sin(((i - 235) / 120) * Math.PI) * 950;
+                } else if (i >= 355 && i < 460) {
+                    curve = -1.2 * dir * Math.sin(((i - 355) / 105) * Math.PI);
+                    y = Math.sin(((i - 355) / 105) * Math.PI * 0.5) * 800;
+                }
+
+                const isBridge = (gameState.biome === 'RIVER' && i >= 130 && i <= 350);
+
+                // Variasi warna sangat halus & lambat (bercak alami, bukan garis)
+                const patch = (Math.sin(i * 0.06) + Math.sin(i * 0.023 + 1.7)) * 0.5;
+                const k = 1 + patch * 0.06;
+                const grass = [grassBase[0] * k, grassBase[1] * k, grassBase[2] * k];
+
+                segments.push({
+                    index: i,
+                    p1: { world: { x: 0, y: i > 0 ? segments[i - 1].p2.world.y : 0, z: i * SEGMENT_LENGTH }, camera: {}, screen: {} },
+                    p2: { world: { x: 0, y: y, z: (i + 1) * SEGMENT_LENGTH }, camera: {}, screen: {} },
+                    curve: curve,
+                    isBridge: isBridge,
+                    isCheckpoint: (!isFinalQ && i === SEGMENTS_PER_QUESTION),
+                    isFinish: (isFinalQ && (i === SEGMENTS_PER_QUESTION + 4 || i === SEGMENTS_PER_QUESTION + 5)),
+                    finishRow: (i === SEGMENTS_PER_QUESTION + 5 ? 1 : 0),
+                    isFinishGate: (isFinalQ && i === SEGMENTS_PER_QUESTION + 4),
+                    color: {
+                        road: isBridge ? [124, 84, 44] : asphalt,
+                        side: isBridge ? water : grass,
+                        shoulder: isBridge ? [100, 66, 34] : [176, 160, 128],
+                        rail: [96, 60, 28]
+                    },
+                    sprites: [],
+                    coins: [],
+                    obstacles: []
+                });
+            }
+
+            populateTrackEntities();
+        }
+
+        function populateTrackEntities() {
+            const obsTypes = ['rock', 'pothole', 'puddle', 'cone'];
+            const biome = gameState.biome;
+            const rnd = Math.random;
+
+            for (let i = 8; i < SEGMENTS_PER_QUESTION - 10; i++) {
+                const seg = segments[i];
+
+                if (seg.isBridge) {
+                    if (i % 14 === 0) {
+                        seg.sprites.push({ type: 'boat', offset: (rnd() < 0.5 ? -1 : 1) * (1.8 + rnd() * 1.2) });
+                    }
+                } else {
+                    // Barisan pertama: rumah / gubuk / pohon / kelapa dekat jalan
+                    if (i % 3 === 0) {
+                        [-1, 1].forEach(s => {
+                            const roll = rnd();
+                            if (biome === 'VILLAGE' && roll < 0.2) {
+                                seg.sprites.push({ type: 'house', offset: s * (3.0 + rnd() * 0.5), variant: rnd() < 0.5 ? 0 : 1, mul: 0.95 + rnd() * 0.2 });
+                            } else if (biome === 'RICEFIELD' && roll < 0.16) {
+                                seg.sprites.push({ type: 'hut', offset: s * (2.6 + rnd() * 0.6), mul: 0.95 + rnd() * 0.15 });
+                            } else if (biome === 'RICEFIELD' && rnd() < 0.45) {
+                                // sawah lebih terbuka: sebagian posisi dikosongkan
+                            } else {
+                                seg.sprites.push({
+                                    type: rnd() < 0.22 ? 'palm' : 'realisticTree',
+                                    offset: s * (2.0 + rnd() * 1.3),
+                                    variant: Math.floor(rnd() * 3),
+                                    mul: 0.85 + rnd() * 0.4
+                                });
+                            }
+                        });
+                    }
+
+                    // Barisan kedua: pohon lebih jauh agar terkesan rimbun
+                    if (i % 4 === 1 && (biome !== 'RICEFIELD' || rnd() < 0.5)) {
+                        seg.sprites.push({
+                            type: 'realisticTree',
+                            offset: (rnd() < 0.5 ? -1 : 1) * (4.0 + rnd() * 3.5),
+                            variant: Math.floor(rnd() * 3),
+                            mul: 1.0 + rnd() * 0.5
+                        });
+                    }
+
+                    if (i % 6 === 4) {
+                        seg.sprites.push({ type: 'bush', offset: -1.5 - rnd() * 0.2 });
+                        seg.sprites.push({ type: 'bush', offset: 1.5 + rnd() * 0.2 });
+                    }
+                    if (i % 24 === 13) {
+                        seg.sprites.push({ type: 'bamboo', offset: (rnd() < 0.5 ? -1 : 1) * (2.3 + rnd() * 0.8) });
+                    }
+                    if (i % 4 === 0) {
+                        seg.sprites.push({ type: 'tuft', offset: (rnd() < 0.5 ? -1 : 1) * (1.3 + rnd() * 2.6), variant: Math.floor(rnd() * 3) });
+                        if (i % 8 === 0) {
+                            seg.sprites.push({ type: 'tuft', offset: (rnd() < 0.5 ? -1 : 1) * (1.3 + rnd() * 2.6), variant: Math.floor(rnd() * 3) });
+                        }
+                    }
+                    if (i % 18 === 0) {
+                        seg.sprites.push({ type: 'streetLamp', offset: i % 36 === 0 ? -1.3 : 1.3 });
+                    }
+                }
+
+                if (i % 12 === 0) {
+                    const coinLane = (rnd() < 0.5 ? -0.45 : 0.45) + (rnd() * 0.2 - 0.1);
+                    for (let c = 0; c < 4; c++) {
+                        if (segments[i + c]) {
+                            segments[i + c].coins.push({ offset: coinLane, collected: false });
+                        }
+                    }
+                }
+
+                if (i % 30 === 12 && i > 18) {
+                    const obsLane = (rnd() * 1.3 - 0.65);
+                    const chosenObs = gameState.weather !== 'SUNNY' && rnd() < 0.5 ? 'puddle' : obsTypes[Math.floor(rnd() * obsTypes.length)];
+                    seg.obstacles.push({ type: chosenObs, offset: obsLane, hit: false });
+                }
+            }
+            populateTraffic();
+        }
+
+        function updateBadgesUI() {
+            const zoneBadge = document.getElementById('zoneBadge');
+            const weatherBadge = document.getElementById('weatherBadge');
+
+            if (gameState.biome === 'VILLAGE') {
+                zoneBadge.textContent = '🏡 Jalan Pedesaan Asri';
+                zoneBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 whitespace-nowrap';
+            } else if (gameState.biome === 'RIVER') {
+                zoneBadge.textContent = '🌉 Jembatan Sungai Desa';
+                zoneBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/30 whitespace-nowrap';
+            } else {
+                zoneBadge.textContent = '🌾 Hamparan Sawah & Bukit';
+                zoneBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 whitespace-nowrap';
+            }
+
+            if (gameState.weather === 'SUNNY') {
+                weatherBadge.textContent = '☀️ Cerah Berawan';
+                weatherBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-yellow-500/20 text-yellow-300 border border-yellow-500/30 whitespace-nowrap';
+            } else if (gameState.weather === 'DRIZZLE') {
+                weatherBadge.textContent = '🌦️ Gerimis Segar';
+                weatherBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 whitespace-nowrap';
+            } else {
+                weatherBadge.textContent = '🌧️ Hujan Rintik';
+                weatherBadge.className = 'text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40 whitespace-nowrap';
+            }
+        }
+
+        function initRain() {
+            gameState.rainDrops = [];
+            for (let i = 0; i < 140; i++) {
+                gameState.rainDrops.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    len: 14 + Math.random() * 14,
+                    speed: 650 + Math.random() * 350
+                });
+            }
+        }
+        initRain();
+
+        // =========================================================================
+        // 4. GAME UPDATE LOOP (FISIKA, KONTROL GAS MANUAL & TABRAKAN)
+        // =========================================================================
+        function applyCrashPenalty() {
+            gameState.score = Math.max(0, gameState.score - 10);
+            updateHUD();
+            gameState.floatingTexts.push({
+                text: '-10 poin',
+                x: width / 2 + gameState.playerX * (width * 0.28),
+                y: height * 0.66,
+                alpha: 1.0,
+                color: '#fca5a5'
+            });
+        }
+
+        function updateGame(dt) {
+            if (gameState.status === 'CROSSING') {
+                gameState.speed += (4300 - gameState.speed) * Math.min(1, 1.3 * dt);
+                gameState.playerX += (0 - gameState.playerX) * Math.min(1, 2 * dt);
+                gameState.position += gameState.speed * dt;
+                gameState.skyOffset += gameState.speed * 0.00015;
+                gameState.bgX += findSegment(gameState.position).curve * (gameState.speed / SEGMENT_LENGTH) * dt;
+                if (!gameState.finishSoundDone && gameState.position > (SEGMENTS_PER_QUESTION + 4) * SEGMENT_LENGTH) {
+                    gameState.finishSoundDone = true;
+                    audio.playCheckpoint();
+                }
+                if (gameState.position >= (SEGMENTS_PER_QUESTION + 10) * SEGMENT_LENGTH) {
+                    gameState.speed = 0;
+                    showFinishScreen();
+                }
+                return;
+            }
+            if (gameState.status !== 'DRIVING') return;
+
+            if (gameState.slowdownTimer > 0) gameState.slowdownTimer -= dt;
+            if (gameState.invulnerableTimer > 0) gameState.invulnerableTimer -= dt;
+            if (gameState.shakeTimer > 0) gameState.shakeTimer -= dt;
+
+            // Gas: percepatan & perlambatan mulus (tidak langsung berhenti saat gas dilepas)
+            if (gameState.keys.up) {
+                const targetSpeed = gameState.slowdownTimer > 0 ? gameState.maxSpeed * 0.6 : gameState.maxSpeed;
+                gameState.speed += (targetSpeed - gameState.speed) * Math.min(1, 1.6 * dt);
+            } else {
+                gameState.speed -= (gameState.speed * 0.9 + 250) * dt;
+                if (gameState.speed < 40) gameState.speed = 0;
+            }
+
+            // Kemudi: kecepatan belok naik-turun perlahan (bukan lompat), sehingga gerak mobil halus
+            const steerInput = (gameState.keys.right ? 1 : 0) - (gameState.keys.left ? 1 : 0);
+            const maxSteer = 1.25 * (gameState.speed / gameState.maxSpeed + 0.4);
+            const steerTarget = steerInput * maxSteer;
+            gameState.steerVel += (steerTarget - gameState.steerVel) * Math.min(1, 7 * dt);
+            gameState.playerX += gameState.steerVel * dt;
+            if (gameState.playerX > 0.88) { gameState.playerX = 0.88; gameState.steerVel = 0; }
+            if (gameState.playerX < -0.88) { gameState.playerX = -0.88; gameState.steerVel = 0; }
+            gameState.tilt += (gameState.steerVel * 0.07 - gameState.tilt) * Math.min(1, 10 * dt);
+
+            const playerStep = gameState.speed * dt;
+            gameState.position += playerStep;
+
+            gameState.skyOffset += gameState.speed * 0.00015;
+            gameState.bgX += findSegment(gameState.position).curve * (gameState.speed / SEGMENT_LENGTH) * dt;
+
+            // Animasi Partikel Knalpot
+            if (gameState.speed > 500) {
+                gameState.exhaustParticles.push({
+                    x: width / 2 + gameState.playerX * (width * 0.28) + (Math.random() - 0.5) * 16,
+                    y: height * 0.88,
+                    r: 3 + Math.random() * 4,
+                    alpha: 0.6
+                });
+            }
+            gameState.exhaustParticles.forEach(ep => {
+                ep.y += 40 * dt;
+                ep.alpha -= dt * 1.5;
+            });
+            gameState.exhaustParticles = gameState.exhaustParticles.filter(ep => ep.alpha > 0);
+
+            // Floating Texts
+            gameState.floatingTexts.forEach(ft => {
+                ft.y -= 35 * dt;
+                ft.alpha -= dt * 1.1;
+            });
+            gameState.floatingTexts = gameState.floatingTexts.filter(ft => ft.alpha > 0);
+
+            // Cek Pos / Checkpoint Selesai
+            const maxTrackPos = SEGMENTS_PER_QUESTION * SEGMENT_LENGTH;
+            if (gameState.position >= maxTrackPos) {
+                triggerCheckpointQuiz();
+                return;
+            }
+
+            // Update Progress Bar
+            const prog = Math.min(100, (gameState.position / maxTrackPos) * 100);
+            document.getElementById('distanceBar').style.width = prog + '%';
+            document.getElementById('hudSpeed').textContent = Math.round(gameState.speed / 28);
+
+            // Deteksi Koin & Rintangan
+            const currentSeg = findSegment(gameState.position);
+            
+            currentSeg.coins.forEach(c => {
+                if (!c.collected && Math.abs(gameState.playerX - c.offset) < 0.28) {
+                    c.collected = true;
+                    gameState.coins += 1;
+                    gameState.score += 10;
+                    audio.playCoin();
+                    updateHUD();
+
+                    gameState.floatingTexts.push({
+                        text: '+10 🪙',
+                        x: width / 2 + gameState.playerX * (width * 0.28),
+                        y: height * 0.75,
+                        alpha: 1.0,
+                        color: '#facc15'
+                    });
+                }
+            });
+
+            if (gameState.invulnerableTimer <= 0) {
+                currentSeg.obstacles.forEach(obs => {
+                    if (!obs.hit && Math.abs(gameState.playerX - obs.offset) < 0.2) {
+                        obs.hit = true;
+                        gameState.slowdownTimer = 0.8;
+                        gameState.invulnerableTimer = 1.2;
+                        gameState.shakeTimer = 0.2;
+                        gameState.speed *= 0.7;
+                        audio.playCrash();
+                        applyCrashPenalty();
+
+                        gameState.floatingTexts.push({
+                            text: '⚠️ MENABRAK!',
+                            x: width / 2 + gameState.playerX * (width * 0.28),
+                            y: height * 0.72,
+                            alpha: 1.0,
+                            color: '#f87171'
+                        });
+                    }
+                });
+            }
+
+            // Tabrakan dengan kendaraan, warga & anak bersepeda
+            if (gameState.invulnerableTimer <= 0) {
+                const pz = gameState.position + SEGMENT_LENGTH * 0.5;
+                for (const e of traffic) {
+                    if (!e.active || e.hit) continue;
+                    if (Math.abs(e.z - pz) > SEGMENT_LENGTH * 1.5) continue;
+                    const rad = e.kind === 'car' ? 0.3 : (e.kind === 'motor' ? 0.2 : 0.17);
+                    const ex = e.x + (e.nudge || 0);
+                    if (Math.abs(ex - gameState.playerX) < rad) {
+                        e.hit = true;
+                        e.pushDir = ex >= gameState.playerX ? 1 : -1;
+                        gameState.slowdownTimer = 0.8;
+                        gameState.invulnerableTimer = 1.2;
+                        gameState.shakeTimer = 0.2;
+                        gameState.speed *= 0.7;
+                        audio.playCrash();
+                        applyCrashPenalty();
+                        const msg = e.kind === 'ped' ? '🚶 AWAS PEJALAN KAKI!' : (e.kind === 'kid' ? '🚲 AWAS ANAK BERSEPEDA!' : '⚠️ BERSENGGOLAN!');
+                        gameState.floatingTexts.push({
+                            text: msg,
+                            x: width / 2 + gameState.playerX * (width * 0.28),
+                            y: height * 0.72,
+                            alpha: 1.0,
+                            color: '#f87171'
+                        });
+                        break;
+                    }
+                }
+            }
+
+            // Hujan & Petir
+            if (gameState.weather !== 'SUNNY') {
+                gameState.rainDrops.forEach(r => {
+                    r.y += r.speed * dt;
+                    if (r.y > height) r.y = -20;
+                });
+                if (gameState.lightningAlpha > 0) gameState.lightningAlpha -= dt * 3;
+                if (Math.random() < 0.003) gameState.lightningAlpha = 0.75;
+            }
+        }
+
+        // =========================================================================
+        // 5. RENDERING DUNIA REALISTIS 3D, PEMANDANGAN, HUJAN & MOBIL SPORT
+        // =========================================================================
+        function drawPolygon(x1, y1, x2, y2, x3, y3, x4, y4, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.lineTo(x3, y3);
+            ctx.lineTo(x4, y4);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        // ---------- Utilitas warna ----------
+        function mixArr(a, b, t) {
+            return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
+        }
+        function mixRGB(a, b, t) {
+            t = Math.max(0, Math.min(1, t));
+            return 'rgb(' + Math.round(a[0] + (b[0] - a[0]) * t) + ',' + Math.round(a[1] + (b[1] - a[1]) * t) + ',' + Math.round(a[2] + (b[2] - a[2]) * t) + ')';
+        }
+        function hash01(k) {
+            const s = Math.sin(k * 127.1 + 311.7) * 43758.5453;
+            return s - Math.floor(s);
+        }
+        function seeded(seed) {
+            let s = seed >>> 0;
+            return function () { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+        }
+        function getHaze() {
+            if (gameState.weather === 'RAIN') return [112, 128, 148];
+            if (gameState.weather === 'DRIZZLE') return [198, 214, 228];
+            return [214, 232, 246];
+        }
+
+        // ---------- Sprite pra-render (digambar sekali, dipakai ulang tiap frame) ----------
+        const spriteCache = {};
+        function mkCanvas(w, h) {
+            const c = document.createElement('canvas');
+            c.width = w; c.height = h;
+            return c;
+        }
+        function blob(c, x, y, r, dark, mid, light) {
+            const g = c.createRadialGradient(x - r * 0.35, y - r * 0.4, r * 0.1, x, y, r);
+            g.addColorStop(0, light);
+            g.addColorStop(0.55, mid);
+            g.addColorStop(1, dark);
+            c.fillStyle = g;
+            c.beginPath();
+            c.arc(x, y, r, 0, Math.PI * 2);
+            c.fill();
+        }
+        function ellipseShadow(c, x, y, rx, ry, a) {
+            c.fillStyle = 'rgba(0,0,0,' + a + ')';
+            c.beginPath();
+            c.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2);
+            c.fill();
+        }
+
+        function buildTreeSprite(v) {
+            const cv = mkCanvas(256, 320), c = cv.getContext('2d'), R = seeded(100 + v * 31);
+            const pal = [
+                ['#0f3d1e', '#1f7a3a', '#6ee07a'],
+                ['#1c3a10', '#4a8a22', '#b5e853'],
+                ['#0b3b2e', '#14805f', '#5fe0b0']
+            ][v % 3];
+            ellipseShadow(c, 128, 309, 78, 11, 0.3);
+            const tg = c.createLinearGradient(108, 0, 150, 0);
+            tg.addColorStop(0, '#7a5230');
+            tg.addColorStop(0.55, '#4a2e14');
+            tg.addColorStop(1, '#241408');
+            c.fillStyle = tg;
+            c.beginPath();
+            c.moveTo(108, 310);
+            c.quadraticCurveTo(122, 262, 118, 170);
+            c.lineTo(140, 170);
+            c.quadraticCurveTo(136, 262, 152, 310);
+            c.closePath();
+            c.fill();
+            c.strokeStyle = '#4a2e14';
+            c.lineWidth = 9;
+            c.lineCap = 'round';
+            c.beginPath();
+            c.moveTo(126, 205); c.lineTo(84, 152);
+            c.moveTo(132, 198); c.lineTo(176, 146);
+            c.moveTo(128, 180); c.lineTo(128, 118);
+            c.stroke();
+            const bl = [];
+            for (let i = 0; i < 12; i++) {
+                const a = R() * Math.PI * 2, d = R() * 50;
+                bl.push({ x: 128 + Math.cos(a) * d * 1.25, y: 118 + Math.sin(a) * d * 0.85, r: 34 + R() * 22 });
+            }
+            bl.sort((p, q) => q.y - p.y);
+            bl.forEach(b => blob(c, b.x, b.y, b.r, pal[0], pal[1], pal[2]));
+            c.fillStyle = pal[2];
+            for (let i = 0; i < 70; i++) {
+                const a = R() * Math.PI * 2, d = R() * 78;
+                c.globalAlpha = 0.18 + R() * 0.25;
+                c.beginPath();
+                c.arc(114 + Math.cos(a) * d, 100 + Math.sin(a) * d * 0.7, 2 + R() * 4, 0, Math.PI * 2);
+                c.fill();
+            }
+            c.globalAlpha = 1;
+            return cv;
+        }
+
+        function buildPalmSprite(v) {
+            const cv = mkCanvas(300, 410), c = cv.getContext('2d'), R = seeded(500 + v * 13);
+            const lean = v === 0 ? 1 : -1;
+            const P0 = { x: 150, y: 398 }, C = { x: 150 - 55 * lean, y: 280 }, P2 = { x: 150 + 24 * lean, y: 160 };
+            ellipseShadow(c, 150, 400, 62, 8, 0.28);
+            let prev = P0;
+            c.lineCap = 'butt';
+            for (let i = 1; i <= 36; i++) {
+                const t = i / 36, mt = 1 - t;
+                const px = mt * mt * P0.x + 2 * mt * t * C.x + t * t * P2.x;
+                const py = mt * mt * P0.y + 2 * mt * t * C.y + t * t * P2.y;
+                c.strokeStyle = (Math.floor(i / 2) % 2 === 0) ? '#8f6e46' : '#6e5231';
+                c.lineWidth = 20 - 9 * t;
+                c.beginPath();
+                c.moveTo(prev.x, prev.y);
+                c.lineTo(px, py);
+                c.stroke();
+                prev = { x: px, y: py };
+            }
+            const angles = [-172, -148, -124, -100, -76, -52, -28, -6, -90];
+            angles.forEach((deg, idx) => {
+                const a = deg * Math.PI / 180;
+                const L = 100 + R() * 25;
+                const ex = P2.x + Math.cos(a) * L;
+                const ey = P2.y + Math.sin(a) * L * 0.55 + 48 * Math.abs(Math.cos(a));
+                const cx = P2.x + Math.cos(a) * L * 0.55, cy = P2.y + Math.sin(a) * L * 0.95 - 28;
+                const g = c.createLinearGradient(P2.x, P2.y, ex, ey);
+                g.addColorStop(0, '#14532d');
+                g.addColorStop(1, idx % 2 ? '#4ade80' : '#22a14a');
+                c.fillStyle = g;
+                c.beginPath();
+                c.moveTo(P2.x, P2.y);
+                c.quadraticCurveTo(cx, cy - 12, ex, ey);
+                c.quadraticCurveTo(cx, cy + 16, P2.x, P2.y);
+                c.fill();
+                c.strokeStyle = 'rgba(190,242,100,0.55)';
+                c.lineWidth = 1.6;
+                c.beginPath();
+                c.moveTo(P2.x, P2.y);
+                c.quadraticCurveTo(cx, cy + 2, ex, ey);
+                c.stroke();
+            });
+            c.fillStyle = '#5b3a1a';
+            [[-8, 8], [6, 10], [0, 16]].forEach(o => {
+                c.beginPath();
+                c.arc(P2.x + o[0], P2.y + o[1], 7, 0, Math.PI * 2);
+                c.fill();
+            });
+            return cv;
+        }
+
+        function buildBushSprite() {
+            const cv = mkCanvas(220, 130), c = cv.getContext('2d'), R = seeded(900);
+            ellipseShadow(c, 110, 120, 90, 9, 0.28);
+            const bl = [];
+            for (let i = 0; i < 9; i++) bl.push({ x: 40 + R() * 140, y: 60 + R() * 38, r: 24 + R() * 16 });
+            bl.sort((p, q) => p.y - q.y);
+            bl.forEach(b => blob(c, b.x, b.y, b.r, '#14532d', '#2f8f3f', '#7ddc6a'));
+            const fc = ['#fb7185', '#fde047', '#ffffff'];
+            for (let i = 0; i < 14; i++) {
+                c.fillStyle = fc[i % 3];
+                c.beginPath();
+                c.arc(36 + R() * 148, 44 + R() * 56, 3 + R() * 2, 0, Math.PI * 2);
+                c.fill();
+            }
+            return cv;
+        }
+
+        function buildTuftSprite(v) {
+            const cv = mkCanvas(80, 80), c = cv.getContext('2d'), R = seeded(1200 + v * 7);
+            const cols = ['#2f7d32', '#4caf50', '#7cc653', '#1f5f28'];
+            for (let i = 0; i < 9; i++) {
+                const bx = 40 + (i - 4) * 4;
+                const tipx = 40 + (i - 4) * 8 + (R() - 0.5) * 10;
+                const tipy = 12 + R() * 26;
+                const mx = bx + (tipx - bx) * 0.2, my = 76 - (76 - tipy) * 0.6;
+                c.fillStyle = cols[i % cols.length];
+                c.beginPath();
+                c.moveTo(bx - 2.5, 76);
+                c.quadraticCurveTo(mx, my, tipx, tipy);
+                c.quadraticCurveTo(mx + 3, my, bx + 2.5, 76);
+                c.closePath();
+                c.fill();
+            }
+            if (v > 0) {
+                const fc = v === 1 ? ['#fde047', '#f59e0b'] : ['#ffffff', '#fbcfe8'];
+                for (let i = 0; i < 3; i++) {
+                    const fx = 22 + R() * 36, fy = 18 + R() * 22;
+                    c.fillStyle = fc[0];
+                    c.beginPath(); c.arc(fx, fy, 4.2, 0, Math.PI * 2); c.fill();
+                    c.fillStyle = fc[1];
+                    c.beginPath(); c.arc(fx, fy, 1.8, 0, Math.PI * 2); c.fill();
+                }
+            }
+            return cv;
+        }
+
+        function buildBambooSprite() {
+            const cv = mkCanvas(240, 420), c = cv.getContext('2d'), R = seeded(1500);
+            ellipseShadow(c, 120, 410, 70, 8, 0.25);
+            const stalks = [[70, -14], [95, -6], [120, 4], [145, 10], [168, 18], [108, -22], [135, 20]];
+            stalks.forEach(s => {
+                const bx = s[0], tx = s[0] + s[1] * 2.2, top = 40 + R() * 70;
+                const mx = (bx + tx) / 2, my = (408 + top) / 2;
+                const g = c.createLinearGradient(bx - 6, 0, bx + 6, 0);
+                g.addColorStop(0, '#9bbf4a');
+                g.addColorStop(0.5, '#6b9a2c');
+                g.addColorStop(1, '#3f6a1c');
+                c.strokeStyle = g;
+                c.lineWidth = 9;
+                c.lineCap = 'round';
+                c.beginPath();
+                c.moveTo(bx, 408);
+                c.quadraticCurveTo(mx, my, tx, top);
+                c.stroke();
+                c.fillStyle = '#2f5415';
+                for (let t = 0.1; t < 0.96; t += 0.12) {
+                    const mt = 1 - t;
+                    const px = mt * mt * bx + 2 * mt * t * mx + t * t * tx;
+                    const py = mt * mt * 408 + 2 * mt * t * my + t * t * top;
+                    c.fillRect(px - 5, py - 1.5, 10, 3);
+                }
+                for (let k = 0; k < 7; k++) {
+                    const a = (-160 + R() * 140) * Math.PI / 180;
+                    c.fillStyle = k % 2 ? '#8bc34a' : '#5f9a2a';
+                    c.beginPath();
+                    c.ellipse(tx + Math.cos(a) * 18, top + Math.sin(a) * 12, 24, 5, a, 0, Math.PI * 2);
+                    c.fill();
+                }
+            });
+            return cv;
+        }
+
+        function buildHouseSprite(v) {
+            const cv = mkCanvas(320, 270), c = cv.getContext('2d');
+            ellipseShadow(c, 160, 262, 145, 10, 0.28);
+            const wall = v === 0 ? ['#f6ecd2', '#d9c9a3'] : ['#dcead4', '#b5c9a8'];
+            let g = c.createLinearGradient(44, 0, 276, 0);
+            g.addColorStop(0, wall[0]);
+            g.addColorStop(1, wall[1]);
+            c.fillStyle = g;
+            c.fillRect(44, 125, 232, 130);
+            c.fillStyle = '#8b8579';
+            c.fillRect(40, 244, 240, 14);
+            const roof = v === 0 ? ['#d9602a', '#8f3412'] : ['#7c8794', '#444c57'];
+            g = c.createLinearGradient(0, 48, 0, 138);
+            g.addColorStop(0, roof[0]);
+            g.addColorStop(1, roof[1]);
+            c.fillStyle = g;
+            c.beginPath();
+            c.moveTo(14, 138); c.lineTo(78, 48); c.lineTo(242, 48); c.lineTo(306, 138);
+            c.closePath();
+            c.fill();
+            c.strokeStyle = 'rgba(0,0,0,0.13)';
+            c.lineWidth = 2;
+            for (let i = 1; i < 6; i++) {
+                const y = 48 + i * 15, dx = (y - 48) * (64 / 90);
+                c.beginPath();
+                c.moveTo(78 - dx, y);
+                c.lineTo(242 + dx, y);
+                c.stroke();
+            }
+            c.fillStyle = 'rgba(0,0,0,0.28)';
+            c.fillRect(44, 138, 232, 10);
+            g = c.createLinearGradient(136, 0, 184, 0);
+            g.addColorStop(0, '#7a5230');
+            g.addColorStop(1, '#4a2e14');
+            c.fillStyle = g;
+            c.fillRect(136, 168, 48, 88);
+            c.fillStyle = '#facc15';
+            c.beginPath(); c.arc(176, 214, 3, 0, Math.PI * 2); c.fill();
+            [[70, 160], [206, 160]].forEach(p => {
+                c.fillStyle = '#f8fafc';
+                c.fillRect(p[0] - 4, p[1] - 4, 52, 52);
+                const wg = c.createLinearGradient(0, p[1], 0, p[1] + 44);
+                wg.addColorStop(0, '#bfe3f5');
+                wg.addColorStop(1, '#5ea3cc');
+                c.fillStyle = wg;
+                c.fillRect(p[0], p[1], 44, 44);
+                c.fillStyle = '#f8fafc';
+                c.fillRect(p[0] + 20, p[1], 4, 44);
+                c.fillRect(p[0], p[1] + 20, 44, 4);
+                c.fillStyle = '#a8a29e';
+                c.fillRect(p[0] - 6, p[1] + 48, 56, 5);
+            });
+            c.fillStyle = '#a8a29e';
+            c.fillRect(126, 254, 68, 6);
+            return cv;
+        }
+
+        function buildHutSprite() {
+            const cv = mkCanvas(260, 220), c = cv.getContext('2d');
+            ellipseShadow(c, 130, 212, 100, 8, 0.28);
+            c.fillStyle = '#6b4423';
+            [60, 92, 168, 200].forEach(x => c.fillRect(x - 4, 146, 8, 64));
+            c.fillStyle = '#8b5e34';
+            c.fillRect(44, 138, 172, 12);
+            let g = c.createLinearGradient(55, 0, 205, 0);
+            g.addColorStop(0, '#d9bb80');
+            g.addColorStop(1, '#b08d52');
+            c.fillStyle = g;
+            c.fillRect(55, 80, 150, 60);
+            c.strokeStyle = 'rgba(80,50,15,0.28)';
+            c.lineWidth = 1.5;
+            for (let x = 64; x < 205; x += 10) {
+                c.beginPath(); c.moveTo(x, 80); c.lineTo(x, 140); c.stroke();
+            }
+            c.fillStyle = '#3b2a14';
+            c.fillRect(115, 94, 30, 46);
+            g = c.createLinearGradient(0, 18, 0, 90);
+            g.addColorStop(0, '#c99a1f');
+            g.addColorStop(1, '#7a5a12');
+            c.fillStyle = g;
+            c.beginPath();
+            c.moveTo(16, 90); c.lineTo(130, 16); c.lineTo(244, 90);
+            c.closePath();
+            c.fill();
+            c.fillStyle = 'rgba(0,0,0,0.18)';
+            for (let i = 0; i < 40; i++) {
+                const y = 30 + hash01(i * 3.1) * 56, w = (y - 16) * 1.5;
+                c.fillRect(130 - w * 0.5 + hash01(i * 7.7) * w, y, 6, 2);
+            }
+            return cv;
+        }
+
+        function buildCloudSprite(v, dark) {
+            const cv = mkCanvas(340, 180), c = cv.getContext('2d'), R = seeded(2000 + v * 11);
+            const pal = dark
+                ? ['rgba(70,82,98,0)', 'rgba(104,118,136,0.92)', 'rgba(150,164,180,1)']
+                : ['rgba(205,220,235,0)', 'rgba(238,245,252,0.92)', '#ffffff'];
+            const n = 6 + v;
+            for (let i = 0; i < n; i++) {
+                const k = Math.sin(i / (n - 1) * Math.PI);
+                const x = 50 + i * (240 / (n - 1)) + (R() - 0.5) * 20;
+                const y = 112 - k * (22 + R() * 14) + R() * 8;
+                const r = 28 + k * 18 + R() * 10;
+                blob(c, x, y, r, pal[0], pal[1], pal[2]);
+            }
+            return cv;
+        }
+
+        function buildSprite(key) {
+            if (key.indexOf('tree') === 0) return buildTreeSprite(parseInt(key.slice(4), 10));
+            if (key.indexOf('palm') === 0) return buildPalmSprite(parseInt(key.slice(4), 10));
+            if (key.indexOf('house') === 0) return buildHouseSprite(parseInt(key.slice(5), 10));
+            if (key.indexOf('tuft') === 0) return buildTuftSprite(parseInt(key.slice(4), 10));
+            if (key.indexOf('cloud') === 0) return buildCloudSprite(parseInt(key.charAt(5), 10), key.charAt(6) === 'D');
+            if (key === 'bush') return buildBushSprite();
+            if (key === 'bamboo') return buildBambooSprite();
+            if (key === 'hut') return buildHutSprite();
+            return null;
+        }
+        function getSprite(key) {
+            if (!spriteCache[key]) spriteCache[key] = buildSprite(key);
+            return spriteCache[key];
+        }
+        function prewarmSprites() {
+            ['tree0', 'tree1', 'tree2', 'palm0', 'palm1', 'house0', 'house1', 'hut', 'bush', 'bamboo',
+             'tuft0', 'tuft1', 'tuft2',
+             'cloud0L', 'cloud1L', 'cloud2L', 'cloud0D', 'cloud1D', 'cloud2D'].forEach(getSprite);
+        }
+
+        function drawGame() {
+            ctx.save();
+
+            if (gameState.shakeTimer > 0) {
+                const mag = gameState.shakeTimer * 14;
+                const tt = performance.now() * 0.03;
+                ctx.translate(Math.sin(tt) * mag, Math.cos(tt * 1.3) * mag * 0.6);
+            }
+
+            const baseSeg = findSegment(gameState.position);
+            const basePercent = (gameState.position % SEGMENT_LENGTH) / SEGMENT_LENGTH;
+            const playerY = baseSeg.p1.world.y + (baseSeg.p2.world.y - baseSeg.p1.world.y) * basePercent;
+            const haze = getHaze();
+            ctx.imageSmoothingQuality = 'low';
+
+            // Langit
+            const skyGrad = ctx.createLinearGradient(0, 0, 0, height * 0.52);
+            if (gameState.weather === 'RAIN') {
+                skyGrad.addColorStop(0, '#2b3a4d');
+                skyGrad.addColorStop(0.55, '#55667b');
+                skyGrad.addColorStop(1, '#7f8ea1');
+            } else if (gameState.weather === 'DRIZZLE') {
+                skyGrad.addColorStop(0, '#4a86b5');
+                skyGrad.addColorStop(0.55, '#93b9d6');
+                skyGrad.addColorStop(1, '#c6d6e4');
+            } else {
+                skyGrad.addColorStop(0, '#1e78c8');
+                skyGrad.addColorStop(0.55, '#5fb0ec');
+                skyGrad.addColorStop(1, '#d6e8f6');
+            }
+            ctx.fillStyle = skyGrad;
+            ctx.fillRect(0, 0, width, height);
+
+            // Matahari dengan cahaya lembut
+            if (gameState.weather === 'SUNNY') {
+                const sx = width * 0.82, sy = height * 0.14;
+                const glow = ctx.createRadialGradient(sx, sy, 0, sx, sy, Math.max(width, height) * 0.28);
+                glow.addColorStop(0, 'rgba(255, 250, 215, 0.95)');
+                glow.addColorStop(0.18, 'rgba(255, 244, 190, 0.55)');
+                glow.addColorStop(1, 'rgba(255, 244, 190, 0)');
+                ctx.fillStyle = glow;
+                ctx.fillRect(0, 0, width, height * 0.6);
+                ctx.fillStyle = '#fffbe0';
+                ctx.beginPath();
+                ctx.arc(sx, sy, 30, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            drawClouds();
+            const horizonY = drawBackdrop(playerY);
+
+            // Petakan kendaraan/warga ke segmen yang terlihat
+            for (let n = 0; n < DRAW_DISTANCE; n++) {
+                const sg = segments[baseSeg.index + n];
+                if (sg) sg.dyn = null;
+            }
+            traffic.forEach(e => {
+                if (!e.active) return;
+                const idx = Math.floor(e.z / SEGMENT_LENGTH);
+                if (idx < baseSeg.index || idx >= baseSeg.index + DRAW_DISTANCE) return;
+                const sg = segments[idx];
+                if (sg) (sg.dyn = sg.dyn || []).push(e);
+            });
+
+            let maxY = height;
+            let x = 0;
+            let dx = -(baseSeg.curve * basePercent);
+            const visibleSegments = [];
+
+            for (let n = 0; n < DRAW_DISTANCE; n++) {
+                const segIdx = baseSeg.index + n;
+                if (segIdx >= segments.length) break;
+                const seg = segments[segIdx];
+
+                projectPoint(seg.p1, (gameState.playerX * ROAD_WIDTH) - x, playerY + CAMERA_HEIGHT, gameState.position);
+                projectPoint(seg.p2, (gameState.playerX * ROAD_WIDTH) - x - dx, playerY + CAMERA_HEIGHT, gameState.position);
+
+                x += dx;
+                dx += seg.curve;
+
+                if (seg.p1.camera.z <= CAMERA_DEPTH || seg.p2.screen.y >= maxY || seg.p2.screen.y >= seg.p1.screen.y) {
+                    continue;
+                }
+
+                const x1 = seg.p1.screen.x, y1 = seg.p1.screen.y, w1 = seg.p1.screen.w;
+                const x2 = seg.p2.screen.x, y2 = seg.p2.screen.y, w2 = seg.p2.screen.w;
+                const yT = y2 - 1; // sedikit tumpang tindih agar tidak ada celah/garis tipis
+
+                // Kabut halus: makin jauh makin menyatu dengan langit (tanpa belang)
+                const fog = Math.pow(n / DRAW_DISTANCE, 1.4) * 0.82;
+
+                // Tanah / rumput / air sungai
+                ctx.fillStyle = mixRGB(seg.color.side, haze, fog);
+                ctx.fillRect(0, yT, width, y1 - yT);
+
+                // Bahu jalan (satu warna polos, tanpa strip selang-seling)
+                const s1 = w1 * 0.11, s2 = w2 * 0.11;
+                const shoulderCol = mixRGB(seg.color.shoulder, haze, fog);
+                drawPolygon(x1 - w1 - s1, y1, x1 - w1, y1, x2 - w2, yT, x2 - w2 - s2, yT, shoulderCol);
+                drawPolygon(x1 + w1, y1, x1 + w1 + s1, y1, x2 + w2 + s2, yT, x2 + w2, yT, shoulderCol);
+
+                // Aspal / papan jembatan
+                const roadCol = seg.isFinish ? '#f8fafc' : (seg.isCheckpoint ? '#f59e0b' : mixRGB(seg.color.road, haze, fog));
+                drawPolygon(x1 - w1, y1, x1 + w1, y1, x2 + w2, yT, x2 - w2, yT, roadCol);
+
+                if (seg.isFinish) {
+                    const cols = 14;
+                    for (let c = 0; c < cols; c++) {
+                        if ((c + seg.finishRow) % 2 === 0) continue;
+                        const a0 = -1 + 2 * c / cols, a1 = -1 + 2 * (c + 1) / cols;
+                        drawPolygon(x1 + w1 * a0, y1, x1 + w1 * a1, y1, x2 + w2 * a1, yT, x2 + w2 * a0, yT, '#111827');
+                    }
+                }
+
+                if (seg.isBridge) {
+                    // Pagar jembatan kayu
+                    const rc = mixRGB(seg.color.rail, haze, fog);
+                    drawPolygon(x1 - w1 * 1.0, y1, x1 - w1 * 0.93, y1, x2 - w2 * 0.93, yT, x2 - w2 * 1.0, yT, rc);
+                    drawPolygon(x1 + w1 * 0.93, y1, x1 + w1 * 1.0, y1, x2 + w2 * 1.0, yT, x2 + w2 * 0.93, yT, rc);
+                } else if (!seg.isCheckpoint) {
+                    // Marka tepi tipis & menyatu (tanpa garis tengah putus-putus)
+                    const a = (0.5 * (1 - fog)).toFixed(3);
+                    const ew1 = w1 * 0.016, ew2 = w2 * 0.016;
+                    ctx.fillStyle = 'rgba(255,255,255,' + a + ')';
+                    ctx.beginPath();
+                    ctx.moveTo(x1 - w1 * 0.9, y1); ctx.lineTo(x1 - w1 * 0.9 + ew1, y1);
+                    ctx.lineTo(x2 - w2 * 0.9 + ew2, yT); ctx.lineTo(x2 - w2 * 0.9, yT);
+                    ctx.closePath(); ctx.fill();
+                    ctx.beginPath();
+                    ctx.moveTo(x1 + w1 * 0.9 - ew1, y1); ctx.lineTo(x1 + w1 * 0.9, y1);
+                    ctx.lineTo(x2 + w2 * 0.9, yT); ctx.lineTo(x2 + w2 * 0.9 - ew2, yT);
+                    ctx.closePath(); ctx.fill();
+                }
+
+                // Kemunculan halus: objek di kejauhan memudar masuk (tidak tiba-tiba muncul)
+                const fr = n / DRAW_DISTANCE;
+                const ft = Math.max(0, Math.min(1, (0.97 - fr) / 0.4));
+                seg.fade = ft * ft * (3 - 2 * ft);
+
+                seg.clipY = maxY;
+                maxY = y2;
+                visibleSegments.push(seg);
+            }
+
+            // Objek pinggir jalan, rintangan & koin (dari jauh ke dekat)
+            for (let i = visibleSegments.length - 1; i >= 0; i--) {
+                const seg = visibleSegments[i];
+                const roadCenter = seg.p1.screen.x;
+                const rw = seg.p1.screen.w;
+                const sy = seg.p1.screen.y;
+
+                const needClip = seg.clipY < sy - 1;
+                if (needClip) {
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.rect(0, 0, width, seg.clipY);
+                    ctx.clip();
+                }
+
+                if (seg.isCheckpoint) drawCheckpointGate3D(roadCenter, sy, rw, false);
+                if (seg.isFinishGate) drawCheckpointGate3D(roadCenter, sy, rw, true);
+
+                const fd = seg.fade === undefined ? 1 : seg.fade;
+                ctx.globalAlpha = fd;
+                seg.sprites.forEach(sp => {
+                    drawSprite(sp, roadCenter + sp.offset * rw, sy, rw, roadCenter, fd);
+                });
+                seg.obstacles.forEach(obs => {
+                    drawObstacle3D(obs.type, roadCenter + obs.offset * rw, sy, rw);
+                });
+                seg.coins.forEach(c => {
+                    if (!c.collected) drawCoin3D(roadCenter + c.offset * rw, sy, rw, seg.index);
+                });
+                if (seg.dyn) {
+                    seg.dyn.forEach(e => {
+                        const pct = (e.z % SEGMENT_LENGTH) / SEGMENT_LENGTH;
+                        const ey = sy + (seg.p2.screen.y - sy) * pct;
+                        const ec = roadCenter + (seg.p2.screen.x - roadCenter) * pct;
+                        const ew = rw + (seg.p2.screen.w - rw) * pct;
+                        drawTraffic(e, ec + (e.x + (e.nudge || 0)) * ew, ey, ew);
+                    });
+                }
+                ctx.globalAlpha = 1;
+
+                if (needClip) ctx.restore();
+            }
+
+            // Kabut tipis di horizon
+            const hg = ctx.createLinearGradient(0, horizonY - height * 0.06, 0, horizonY + height * 0.2);
+            hg.addColorStop(0, 'rgba(' + haze[0] + ',' + haze[1] + ',' + haze[2] + ',0)');
+            hg.addColorStop(0.3, 'rgba(' + haze[0] + ',' + haze[1] + ',' + haze[2] + ',0.5)');
+            hg.addColorStop(1, 'rgba(' + haze[0] + ',' + haze[1] + ',' + haze[2] + ',0)');
+            ctx.fillStyle = hg;
+            ctx.fillRect(0, horizonY - height * 0.06, width, height * 0.26);
+
+            // Nuansa cuaca
+            if (gameState.weather === 'RAIN') {
+                ctx.fillStyle = 'rgba(30, 41, 59, 0.22)';
+                ctx.fillRect(0, 0, width, height);
+            } else if (gameState.weather === 'DRIZZLE') {
+                ctx.fillStyle = 'rgba(71, 85, 105, 0.08)';
+                ctx.fillRect(0, 0, width, height);
+            } else {
+                const warm = ctx.createLinearGradient(width, 0, 0, height);
+                warm.addColorStop(0, 'rgba(255, 232, 170, 0.16)');
+                warm.addColorStop(0.6, 'rgba(255, 232, 170, 0)');
+                ctx.fillStyle = warm;
+                ctx.fillRect(0, 0, width, height);
+            }
+
+            gameState.exhaustParticles.forEach(ep => {
+                ctx.save();
+                ctx.fillStyle = `rgba(241, 245, 249, ${ep.alpha})`;
+                ctx.beginPath();
+                ctx.arc(ep.x, ep.y, ep.r, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            });
+
+            drawRealisticSportsCar3D();
+
+            if (gameState.weather !== 'SUNNY') {
+                drawRainEffect();
+            }
+
+            gameState.floatingTexts.forEach(ft => {
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, ft.alpha);
+                ctx.font = 'bold 20px Fredoka, sans-serif';
+                ctx.textAlign = 'center';
+                ctx.strokeStyle = '#0f172a';
+                ctx.lineWidth = 4;
+                ctx.strokeText(ft.text, ft.x, ft.y);
+                ctx.fillStyle = ft.color;
+                ctx.fillText(ft.text, ft.x, ft.y);
+                ctx.restore();
+            });
+
+            ctx.restore();
+
+            // Tulisan GARIS FINISH di soal terakhir
+            if (gameState.currentQuestionIndex === questions.length - 1 &&
+                (gameState.status === 'DRIVING' || gameState.status === 'CROSSING')) {
+                const dSeg = ((SEGMENTS_PER_QUESTION + 4) * SEGMENT_LENGTH - gameState.position) / SEGMENT_LENGTH;
+                if (dSeg < 75) {
+                    const a = Math.max(0, Math.min(1, (75 - dSeg) / 25));
+                    const pulse = 1 + Math.sin(performance.now() * 0.006) * 0.04;
+                    const fs = Math.max(26, Math.min(64, width * 0.06)) * pulse;
+                    ctx.save();
+                    ctx.globalAlpha = a;
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.font = 'bold ' + fs + 'px Fredoka, sans-serif';
+                    ctx.lineJoin = 'round';
+                    ctx.lineWidth = fs * 0.16;
+                    ctx.strokeStyle = '#0f172a';
+                    ctx.strokeText('🏁 GARIS FINISH 🏁', width / 2, height * 0.2);
+                    ctx.fillStyle = '#fde047';
+                    ctx.fillText('🏁 GARIS FINISH 🏁', width / 2, height * 0.2);
+                    ctx.restore();
+                }
+            }
+
+            // Vinyet halus agar tampilan lebih sinematik
+            const vg = ctx.createRadialGradient(width / 2, height / 2, Math.min(width, height) * 0.45, width / 2, height / 2, Math.max(width, height) * 0.78);
+            vg.addColorStop(0, 'rgba(0,0,0,0)');
+            vg.addColorStop(1, 'rgba(0,0,0,0.28)');
+            ctx.fillStyle = vg;
+            ctx.fillRect(0, 0, width, height);
+        }
+
+        function drawClouds() {
+            const dark = gameState.weather === 'RAIN';
+            const n = dark ? 7 : (gameState.weather === 'DRIZZLE' ? 6 : 5);
+            const drift = gameState.skyOffset * 35 + gameState.cloudTime * 10 + gameState.bgX * 0.0004 * width;
+            const span = width * 1.5;
+            ctx.save();
+            ctx.globalAlpha = dark ? 0.92 : (gameState.weather === 'DRIZZLE' ? 0.8 : 0.9);
+            for (let i = 0; i < n; i++) {
+                const img = getSprite('cloud' + (i % 3) + (dark ? 'D' : 'L'));
+                const cx = (((i * span / n) + drift * (0.6 + 0.15 * (i % 3))) % span) - width * 0.25;
+                const cy = height * (0.04 + 0.075 * (i % 4));
+                const cw = width * (0.2 + 0.05 * (i % 3));
+                ctx.drawImage(img, cx, cy, cw, cw * img.height / img.width);
+            }
+            ctx.restore();
+        }
+
+        // Latar belakang: perbukitan berlapis, deretan pohon jauh & tanah (digambar halus tanpa garis)
+        function drawBackdrop(playerY) {
+            const haze = getHaze();
+            const horizonY = height * 0.5 + playerY * 0.006;
+            const wmix = gameState.weather === 'RAIN' ? 0.5 : (gameState.weather === 'DRIZZLE' ? 0.2 : 0);
+            const tone = c => mixArr(c, [72, 86, 102], wmix);
+
+            const layers = [
+                { c: tone([122, 152, 180]), amp: height * 0.20, freq: 0.0042, ph: 1.2, sp: 0.0008, hz: 0.55 },
+                { c: tone([88, 132, 112]), amp: height * 0.13, freq: 0.0065, ph: 3.1, sp: 0.0016, hz: 0.38 },
+                { c: tone([60, 112, 66]), amp: height * 0.075, freq: 0.010, ph: 5.4, sp: 0.0028, hz: 0.20 }
+            ];
+            layers.forEach(L => {
+                const g = ctx.createLinearGradient(0, horizonY - L.amp, 0, horizonY);
+                g.addColorStop(0, mixRGB(L.c, haze, L.hz));
+                g.addColorStop(1, mixRGB(L.c, haze, L.hz + 0.35));
+                const shift = gameState.bgX * L.sp * width;
+                ctx.fillStyle = g;
+                ctx.beginPath();
+                ctx.moveTo(0, height);
+                for (let px = 0; px <= width + 6; px += 6) {
+                    const u = (px + shift) * L.freq;
+                    const h = L.amp * (0.5 + 0.3 * Math.sin(u + L.ph) + 0.15 * Math.sin(u * 2.3 + L.ph * 1.7) + 0.07 * Math.sin(u * 5.1 + L.ph * 0.6));
+                    ctx.lineTo(px, horizonY + 4 - h);
+                }
+                ctx.lineTo(width, height);
+                ctx.closePath();
+                ctx.fill();
+            });
+
+            // Deretan pohon di kejauhan
+            const tShift = gameState.bgX * 0.004 * width;
+            const step = 14;
+            const k0 = Math.floor(tShift / step);
+            const cols = Math.ceil(width / step) + 3;
+            for (let row = 0; row < 2; row++) {
+                ctx.fillStyle = row === 0
+                    ? mixRGB(tone([44, 96, 54]), haze, 0.28)
+                    : mixRGB(tone([34, 84, 46]), haze, 0.16);
+                ctx.beginPath();
+                for (let k = k0 - 1; k < k0 + cols; k++) {
+                    const hs = hash01(k + row * 997);
+                    const px = k * step - tShift + hs * 6;
+                    const r = (row === 0 ? 9 : 7) + hs * (row === 0 ? 10 : 8);
+                    const py = horizonY + 2 - r * 0.6 - (row === 0 ? hs * 5 : 0);
+                    ctx.moveTo(px + r, py);
+                    ctx.arc(px, py, r, 0, Math.PI * 2);
+                }
+                ctx.fill();
+            }
+
+            // Tanah dasar (menutup celah antara horizon dan ujung jalan)
+            const base = gameState.grassBase || [78, 128, 44];
+            const gg = ctx.createLinearGradient(0, horizonY, 0, height);
+            gg.addColorStop(0, mixRGB(base, haze, 0.6));
+            gg.addColorStop(1, mixRGB(base, haze, 0));
+            ctx.fillStyle = gg;
+            ctx.fillRect(0, horizonY + 2, width, height - horizonY);
+
+            return horizonY;
+        }
+
+        // Menggambar objek pinggir jalan. Ukuran dihitung dari lebar jalan di layar (rw)
+        function drawSprite(sp, x, y, rw, roadCenter, fade) {
+            const mul = (sp.mul || 1) * (0.86 + 0.14 * (fade === undefined ? 1 : fade));
+            const v = sp.variant || 0;
+            let key = null, hMul = 1;
+
+            switch (sp.type) {
+                case 'realisticTree': key = 'tree' + (v % 3); hMul = 1.35; break;
+                case 'palm': key = 'palm' + (v % 2); hMul = 1.9; break;
+                case 'bamboo': key = 'bamboo'; hMul = 1.5; break;
+                case 'house': key = 'house' + (v % 2); hMul = 1.0; break;
+                case 'hut': key = 'hut'; hMul = 0.62; break;
+                case 'bush': key = 'bush'; hMul = 0.3; break;
+                case 'tuft': key = 'tuft' + (v % 3); hMul = 0.14; break;
+            }
+
+            if (key) {
+                const img = getSprite(key);
+                const H = rw * hMul * mul;
+                if (H < (sp.type === 'tuft' ? 10 : 5)) return;
+                const W = H * img.width / img.height;
+                if (x + W / 2 < 0 || x - W / 2 > width) return;
+                ctx.drawImage(img, x - W / 2, y - H * 0.96, W, H);
+                return;
+            }
+
+            if (sp.type === 'streetLamp') {
+                const h = rw * 1.05;
+                if (h < 6) return;
+                const pw = Math.max(1.5, rw * 0.035);
+                const dir = x < roadCenter ? 1 : -1;
+                ctx.save();
+                ctx.translate(x, y);
+                ctx.fillStyle = '#3b4452';
+                ctx.fillRect(-pw / 2, -h, pw, h);
+                ctx.fillRect(0, -h, dir * rw * 0.16, pw);
+                const lx = dir * rw * 0.16, ly = -h + pw * 0.5;
+                if (gameState.weather !== 'SUNNY') {
+                    const lg = ctx.createRadialGradient(lx, ly, 0, lx, ly, rw * 0.18);
+                    lg.addColorStop(0, 'rgba(254, 240, 138, 0.55)');
+                    lg.addColorStop(1, 'rgba(254, 240, 138, 0)');
+                    ctx.fillStyle = lg;
+                    ctx.fillRect(lx - rw * 0.2, ly - rw * 0.2, rw * 0.4, rw * 0.4);
+                }
+                ctx.fillStyle = '#fde68a';
+                ctx.beginPath();
+                ctx.ellipse(lx, ly + pw, rw * 0.04, rw * 0.022, 0, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            } else if (sp.type === 'boat') {
+                const w = rw * 0.5;
+                if (w < 6) return;
+                ctx.save();
+                ctx.translate(x, y);
+                const bg = ctx.createLinearGradient(0, -w * 0.2, 0, 0);
+                bg.addColorStop(0, '#b45f2a');
+                bg.addColorStop(1, '#6b3412');
+                ctx.fillStyle = bg;
+                ctx.beginPath();
+                ctx.moveTo(-w * 0.5, -w * 0.18);
+                ctx.lineTo(w * 0.5, -w * 0.18);
+                ctx.lineTo(w * 0.34, 0);
+                ctx.lineTo(-w * 0.34, 0);
+                ctx.closePath();
+                ctx.fill();
+                ctx.fillStyle = '#d6b27a';
+                ctx.fillRect(-w * 0.12, -w * 0.3, w * 0.24, w * 0.12);
+                ctx.fillStyle = 'rgba(255,255,255,0.35)';
+                ctx.beginPath();
+                ctx.ellipse(0, w * 0.02, w * 0.5, w * 0.04, 0, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        function drawObstacle3D(type, x, y, rw) {
+            const u = rw;
+            if (u * 0.17 < 2) return;
+
+            ctx.save();
+            ctx.translate(x, y);
+
+            if (type === 'rock') {
+                ctx.fillStyle = 'rgba(0,0,0,0.35)';
+                ctx.beginPath(); ctx.ellipse(0, 0, 0.2 * u, 0.045 * u, 0, 0, Math.PI * 2); ctx.fill();
+                blob(ctx, 0, -0.1 * u, 0.17 * u, '#3f4650', '#78828f', '#b6bec9');
+                blob(ctx, -0.07 * u, -0.07 * u, 0.1 * u, '#4b5563', '#8a94a1', '#c7cdd6');
+            } else if (type === 'pothole') {
+                ctx.fillStyle = '#6b7280';
+                ctx.beginPath(); ctx.ellipse(0, 0, 0.18 * u, 0.055 * u, 0, 0, Math.PI * 2); ctx.fill();
+                ctx.fillStyle = '#2b2f36';
+                ctx.beginPath(); ctx.ellipse(0, 0, 0.16 * u, 0.045 * u, 0, 0, Math.PI * 2); ctx.fill();
+                ctx.fillStyle = '#12151a';
+                ctx.beginPath(); ctx.ellipse(0, 0.004 * u, 0.12 * u, 0.03 * u, 0, 0, Math.PI * 2); ctx.fill();
+            } else if (type === 'puddle') {
+                ctx.fillStyle = 'rgba(110, 185, 222, 0.88)';
+                ctx.beginPath(); ctx.ellipse(0, 0, 0.21 * u, 0.058 * u, 0, 0, Math.PI * 2); ctx.fill();
+                ctx.fillStyle = 'rgba(255,255,255,0.5)';
+                ctx.beginPath(); ctx.ellipse(-0.04 * u, -0.008 * u, 0.1 * u, 0.02 * u, 0, 0, Math.PI * 2); ctx.fill();
+            } else if (type === 'cone') {
+                ctx.fillStyle = 'rgba(0,0,0,0.3)';
+                ctx.beginPath(); ctx.ellipse(0, 0, 0.1 * u, 0.025 * u, 0, 0, Math.PI * 2); ctx.fill();
+                ctx.fillStyle = '#1f2937';
+                ctx.fillRect(-0.08 * u, -0.02 * u, 0.16 * u, 0.02 * u);
+                const cg = ctx.createLinearGradient(-0.065 * u, 0, 0.065 * u, 0);
+                cg.addColorStop(0, '#fdba74');
+                cg.addColorStop(0.5, '#f97316');
+                cg.addColorStop(1, '#c2410c');
+                ctx.fillStyle = cg;
+                ctx.beginPath();
+                ctx.moveTo(0, -0.24 * u);
+                ctx.lineTo(0.065 * u, -0.02 * u);
+                ctx.lineTo(-0.065 * u, -0.02 * u);
+                ctx.closePath();
+                ctx.fill();
+                ctx.fillStyle = '#f8fafc';
+                ctx.beginPath();
+                ctx.moveTo(-0.0237 * u, -0.16 * u);
+                ctx.lineTo(0.0237 * u, -0.16 * u);
+                ctx.lineTo(0.0414 * u, -0.1 * u);
+                ctx.lineTo(-0.0414 * u, -0.1 * u);
+                ctx.closePath();
+                ctx.fill();
+            }
+
+            ctx.restore();
+        }
+
+        function drawCoin3D(x, y, rw, segIndex) {
+            const r = rw * 0.055;
+            if (r < 1.5) return;
+
+            const now = performance.now();
+            const floatY = Math.sin(segIndex * 0.5 + now * 0.006) * r * 0.5;
+            const spin = Math.max(0.28, Math.abs(Math.cos(now * 0.005 + segIndex)));
+
+            ctx.save();
+            ctx.fillStyle = 'rgba(0,0,0,0.25)';
+            ctx.beginPath();
+            ctx.ellipse(x, y, r * 0.9, r * 0.25, 0, 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.translate(x, y - rw * 0.1 + floatY);
+            ctx.scale(spin, 1);
+            ctx.fillStyle = '#a16207';
+            ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.fill();
+            const fg = ctx.createRadialGradient(-r * 0.3, -r * 0.3, r * 0.1, 0, 0, r * 0.88);
+            fg.addColorStop(0, '#fff7b0');
+            fg.addColorStop(0.55, '#facc15');
+            fg.addColorStop(1, '#d4a017');
+            ctx.fillStyle = fg;
+            ctx.beginPath(); ctx.arc(0, 0, r * 0.84, 0, Math.PI * 2); ctx.fill();
+            ctx.restore();
+        }
+
+        // =========================================================================
+        // LALU LINTAS, WARGA & ANAK BERSEPEDA
+        // =========================================================================
+        const CAR_PALETTE = [['#3b82f6', '#1e3a8a'], ['#22c55e', '#14532d'], ['#facc15', '#a16207'], ['#e2e8f0', '#64748b'],
+            ['#a855f7', '#581c87'], ['#f97316', '#9a3412'], ['#14b8a6', '#134e4a'], ['#94a3b8', '#334155']];
+        const SHIRT_COLORS = ['#ef4444', '#3b82f6', '#f59e0b', '#10b981', '#ec4899', '#8b5cf6', '#f97316'];
+        let traffic = [];
+
+        function bridgeAt(z) {
+            const sg = segments[Math.floor(z / SEGMENT_LENGTH)];
+            return !!(sg && sg.isBridge);
+        }
+
+        function populateTraffic() {
+            traffic = [];
+            const rnd = Math.random, SL = SEGMENT_LENGTH;
+            const lastZ = (SEGMENTS_PER_QUESTION - 14) * SL;
+            const add = e => {
+                e.active = true; e.hit = false; e.nudge = 0;
+                e.t = rnd() * 10; e.phase = rnd() * 6.28;
+                e.pal = Math.floor(rnd() * CAR_PALETTE.length);
+                e.shirt = Math.floor(rnd() * SHIRT_COLORS.length);
+                e.umb = Math.floor(rnd() * SHIRT_COLORS.length);
+                traffic.push(e);
+            };
+            // Searah dengan pemain (lajur kanan)
+            for (let z = 32 * SL; z < lastZ; z += (34 + rnd() * 26) * SL) {
+                add({ kind: rnd() < 0.6 ? 'car' : 'motor', dir: 1, x: 0.4 + rnd() * 0.3, z: z, speed: 1900 + rnd() * 1500 });
+            }
+            // Arah berlawanan (lajur kiri)
+            for (let z = 44 * SL; z < lastZ; z += (26 + rnd() * 22) * SL) {
+                add({ kind: rnd() < 0.6 ? 'car' : 'motor', dir: -1, x: -0.72 + rnd() * 0.3, z: z, speed: 2400 + rnd() * 1700 });
+            }
+            // Warga menyeberang
+            for (let z = 26 * SL; z < lastZ; z += (30 + rnd() * 24) * SL) {
+                if (bridgeAt(z)) continue;
+                const side = rnd() < 0.5 ? -1 : 1;
+                add({ kind: 'ped', state: 'wait', dir: 0, x: side * 1.42, target: -side * 1.42, vx: -side * (0.45 + rnd() * 0.15), z: z });
+            }
+            // Anak-anak bermain sepeda di jalan
+            for (let z = 50 * SL; z < lastZ; z += (46 + rnd() * 28) * SL) {
+                if (bridgeAt(z)) continue;
+                const dir = rnd() < 0.6 ? 1 : -1;
+                add({ kind: 'kid', dir: dir, base: -0.15 + rnd() * 0.3, x: 0, z: z, speed: 900 + rnd() * 500 });
+            }
+        }
+
+        function updateTraffic(dt) {
+            const SL = SEGMENT_LENGTH;
+            const pos = gameState.position;
+            const maxZ = (SEGMENTS_PER_QUESTION - 6) * SL;
+            traffic.forEach(e => {
+                if (!e.active) return;
+                e.t += dt;
+                if (e.hit) e.nudge += (e.pushDir || 1) * dt * 0.9;
+
+                if (e.kind === 'ped') {
+                    if (e.state === 'wait') {
+                        if (e.z - pos < SL * 85 && e.z - pos > 0) e.state = 'cross';
+                    } else if (e.state === 'cross') {
+                        e.x += e.vx * dt;
+                        if ((e.vx < 0 && e.x <= e.target) || (e.vx > 0 && e.x >= e.target)) e.state = 'away';
+                    } else if (e.state === 'away') {
+                        e.x += e.vx * 0.6 * dt;
+                        if (Math.abs(e.x) > 2.1) e.state = 'done';
+                    }
+                    if (e.z < pos - SL * 8) e.active = false;
+                    return;
+                }
+
+                if (e.kind === 'kid') {
+                    e.z += e.dir * e.speed * dt;
+                    e.x = e.base + Math.sin(e.t * 1.3 + e.phase) * 0.2;
+                    if (e.z < pos - SL * 8 || e.z > maxZ || e.z < 0) e.active = false;
+                    return;
+                }
+
+                // Mobil & motor
+                e.z += e.dir * e.speed * dt;
+                if (e.z > maxZ || e.z < pos - SL * 8) {
+                    const nz = pos + (80 + Math.random() * 40) * SL;
+                    if (nz < maxZ) { e.z = nz; e.hit = false; e.nudge = 0; }
+                    else e.active = false;
+                }
+            });
+        }
+
+        function trafficShadow(w, h) {
+            ctx.fillStyle = 'rgba(0,0,0,0.3)';
+            ctx.beginPath();
+            ctx.ellipse(0, 0, w, h, 0, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        function drawTrafficCar(e, u) {
+            const pal = CAR_PALETTE[e.pal], front = e.dir < 0;
+            const w = 0.46 * u, h = 0.28 * u;
+            if (w < 5) return;
+            trafficShadow(w * 0.58, h * 0.12);
+            ctx.fillStyle = '#0f172a';
+            ctx.fillRect(-w * 0.47, -h * 0.26, w * 0.15, h * 0.26);
+            ctx.fillRect(w * 0.32, -h * 0.26, w * 0.15, h * 0.26);
+            const bg = ctx.createLinearGradient(0, -h, 0, 0);
+            bg.addColorStop(0, pal[0]);
+            bg.addColorStop(1, pal[1]);
+            ctx.fillStyle = bg;
+            ctx.beginPath(); ctx.roundRect(-w / 2, -h * 0.68, w, h * 0.5, h * 0.14); ctx.fill();
+            ctx.beginPath(); ctx.roundRect(-w * 0.36, -h * 1.04, w * 0.72, h * 0.5, h * 0.16); ctx.fill();
+            ctx.fillStyle = front ? 'rgba(186,230,253,0.85)' : 'rgba(15,23,42,0.88)';
+            ctx.beginPath(); ctx.roundRect(-w * 0.3, -h * 0.98, w * 0.6, h * 0.34, h * 0.1); ctx.fill();
+            const lc = front ? '#fef9c3' : '#ef4444';
+            if (gameState.weather !== 'SUNNY' || front) {
+                const gl = ctx.createRadialGradient(0, -h * 0.5, 0, 0, -h * 0.5, w * 0.8);
+                gl.addColorStop(0, front ? 'rgba(254,249,195,0.35)' : 'rgba(239,68,68,0.25)');
+                gl.addColorStop(1, 'rgba(0,0,0,0)');
+                ctx.fillStyle = gl;
+                ctx.fillRect(-w * 0.8, -h * 1.3, w * 1.6, h * 1.6);
+            }
+            ctx.fillStyle = lc;
+            ctx.beginPath(); ctx.roundRect(-w * 0.47, -h * 0.6, w * 0.2, h * 0.14, h * 0.05); ctx.fill();
+            ctx.beginPath(); ctx.roundRect(w * 0.27, -h * 0.6, w * 0.2, h * 0.14, h * 0.05); ctx.fill();
+            ctx.fillStyle = '#f8fafc';
+            ctx.fillRect(-w * 0.12, -h * 0.4, w * 0.24, h * 0.1);
+        }
+
+        function drawTrafficMotor(e, u) {
+            const pal = CAR_PALETTE[e.pal], front = e.dir < 0;
+            const h = 0.34 * u;
+            if (h < 5) return;
+            trafficShadow(h * 0.3, h * 0.05);
+            ctx.fillStyle = '#111827';
+            ctx.beginPath(); ctx.ellipse(0, -h * 0.2, h * 0.06, h * 0.2, 0, 0, Math.PI * 2); ctx.fill();
+            ctx.fillStyle = pal[1];
+            ctx.beginPath(); ctx.roundRect(-h * 0.1, -h * 0.52, h * 0.2, h * 0.28, h * 0.06); ctx.fill();
+            ctx.fillStyle = SHIRT_COLORS[e.shirt];
+            ctx.beginPath(); ctx.roundRect(-h * 0.15, -h * 0.9, h * 0.3, h * 0.42, h * 0.1); ctx.fill();
+            ctx.strokeStyle = '#1f2937';
+            ctx.lineWidth = Math.max(1, h * 0.03);
+            ctx.beginPath(); ctx.moveTo(-h * 0.22, -h * 0.56); ctx.lineTo(h * 0.22, -h * 0.56); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(-h * 0.14, -h * 0.8); ctx.lineTo(-h * 0.22, -h * 0.56); ctx.moveTo(h * 0.14, -h * 0.8); ctx.lineTo(h * 0.22, -h * 0.56); ctx.stroke();
+            ctx.fillStyle = pal[0];
+            ctx.beginPath(); ctx.arc(0, -h * 1.0, h * 0.11, 0, Math.PI * 2); ctx.fill();
+            if (front) {
+                ctx.fillStyle = '#0f172a';
+                ctx.fillRect(-h * 0.08, -h * 1.02, h * 0.16, h * 0.05);
+                ctx.fillStyle = '#fef9c3';
+                ctx.beginPath(); ctx.arc(0, -h * 0.5, h * 0.05, 0, Math.PI * 2); ctx.fill();
+            } else {
+                ctx.fillStyle = '#ef4444';
+                ctx.fillRect(-h * 0.07, -h * 0.28, h * 0.14, h * 0.06);
+            }
+        }
+
+        function drawPedestrian(e, u) {
+            const hgt = 0.42 * u;
+            if (hgt < 6) return;
+            const moving = e.state === 'cross' || e.state === 'away';
+            const sw = moving ? Math.sin(e.t * 7 + e.phase) : 0;
+            trafficShadow(hgt * 0.16, hgt * 0.035);
+            const lw = Math.max(1, hgt * 0.07);
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = '#1f2937';
+            ctx.lineWidth = lw * 1.3;
+            ctx.beginPath();
+            ctx.moveTo(0, -hgt * 0.45); ctx.lineTo(sw * hgt * 0.16, 0);
+            ctx.moveTo(0, -hgt * 0.45); ctx.lineTo(-sw * hgt * 0.16, 0);
+            ctx.stroke();
+            ctx.fillStyle = SHIRT_COLORS[e.shirt];
+            ctx.beginPath(); ctx.roundRect(-hgt * 0.1, -hgt * 0.8, hgt * 0.2, hgt * 0.38, hgt * 0.05); ctx.fill();
+            ctx.strokeStyle = '#e0a982';
+            ctx.lineWidth = lw;
+            ctx.beginPath();
+            ctx.moveTo(0, -hgt * 0.74); ctx.lineTo(-sw * hgt * 0.13, -hgt * 0.5);
+            ctx.moveTo(0, -hgt * 0.74); ctx.lineTo(sw * hgt * 0.13, -hgt * 0.5);
+            ctx.stroke();
+            ctx.fillStyle = '#e0a982';
+            ctx.beginPath(); ctx.arc(0, -hgt * 0.89, hgt * 0.09, 0, Math.PI * 2); ctx.fill();
+            ctx.fillStyle = '#1f2937';
+            ctx.beginPath(); ctx.arc(0, -hgt * 0.91, hgt * 0.09, Math.PI, 0); ctx.fill();
+            if (gameState.weather !== 'SUNNY') {
+                ctx.fillStyle = SHIRT_COLORS[e.umb];
+                ctx.beginPath(); ctx.arc(0, -hgt * 1.02, hgt * 0.3, Math.PI, 0); ctx.closePath(); ctx.fill();
+                ctx.strokeStyle = '#374151';
+                ctx.lineWidth = Math.max(1, hgt * 0.02);
+                ctx.beginPath(); ctx.moveTo(0, -hgt * 1.02); ctx.lineTo(0, -hgt * 0.8); ctx.stroke();
+            }
+        }
+
+        function drawKidBike(e, u) {
+            const hgt = 0.34 * u;
+            if (hgt < 6) return;
+            const front = e.dir < 0;
+            const lean = Math.cos(e.t * 1.3 + e.phase) * 0.16;
+            const ped = Math.sin(e.t * 8 + e.phase) * hgt * 0.05;
+            trafficShadow(hgt * 0.26, hgt * 0.05);
+            ctx.save();
+            ctx.rotate(lean);
+            ctx.fillStyle = '#111827';
+            ctx.beginPath(); ctx.ellipse(0, -hgt * 0.2, hgt * 0.045, hgt * 0.2, 0, 0, Math.PI * 2); ctx.fill();
+            ctx.fillStyle = '#1f2937';
+            ctx.fillRect(-hgt * 0.06, -hgt * 0.44 + ped, hgt * 0.05, hgt * 0.2);
+            ctx.fillRect(hgt * 0.01, -hgt * 0.44 - ped, hgt * 0.05, hgt * 0.2);
+            ctx.fillStyle = SHIRT_COLORS[e.shirt];
+            ctx.beginPath(); ctx.roundRect(-hgt * 0.12, -hgt * 0.72, hgt * 0.24, hgt * 0.32, hgt * 0.06); ctx.fill();
+            if (!front) {
+                ctx.fillStyle = SHIRT_COLORS[(e.shirt + 3) % SHIRT_COLORS.length];
+                ctx.beginPath(); ctx.roundRect(-hgt * 0.09, -hgt * 0.7, hgt * 0.18, hgt * 0.2, hgt * 0.04); ctx.fill();
+            }
+            ctx.strokeStyle = '#374151';
+            ctx.lineWidth = Math.max(1, hgt * 0.03);
+            ctx.beginPath(); ctx.moveTo(-hgt * 0.22, -hgt * 0.54); ctx.lineTo(hgt * 0.22, -hgt * 0.54); ctx.stroke();
+            ctx.strokeStyle = '#e0a982';
+            ctx.beginPath();
+            ctx.moveTo(-hgt * 0.11, -hgt * 0.66); ctx.lineTo(-hgt * 0.2, -hgt * 0.54);
+            ctx.moveTo(hgt * 0.11, -hgt * 0.66); ctx.lineTo(hgt * 0.2, -hgt * 0.54);
+            ctx.stroke();
+            ctx.fillStyle = '#e0a982';
+            ctx.beginPath(); ctx.arc(0, -hgt * 0.84, hgt * 0.1, 0, Math.PI * 2); ctx.fill();
+            ctx.fillStyle = SHIRT_COLORS[(e.shirt + 5) % SHIRT_COLORS.length];
+            ctx.beginPath(); ctx.arc(0, -hgt * 0.86, hgt * 0.105, Math.PI, 0); ctx.fill();
+            if (front) {
+                ctx.fillStyle = '#1f2937';
+                ctx.beginPath(); ctx.arc(-hgt * 0.035, -hgt * 0.83, hgt * 0.012, 0, Math.PI * 2); ctx.arc(hgt * 0.035, -hgt * 0.83, hgt * 0.012, 0, Math.PI * 2); ctx.fill();
+            }
+            ctx.restore();
+        }
+
+        function drawTraffic(e, x, y, u) {
+            if (u < 6) return;
+            ctx.save();
+            ctx.translate(x, y);
+            if (e.kind === 'car') drawTrafficCar(e, u);
+            else if (e.kind === 'motor') drawTrafficMotor(e, u);
+            else if (e.kind === 'ped') drawPedestrian(e, u);
+            else if (e.kind === 'kid') drawKidBike(e, u);
+            ctx.restore();
+        }
+
+        function drawCheckpointGate3D(roadCenter, sy, rw, isFinish) {
+            if (rw < 8) return;
+            const postW = rw * 0.07, postH = rw * 0.95;
+            ctx.save();
+            const pg = ctx.createLinearGradient(0, sy - postH, 0, sy);
+            if (isFinish) { pg.addColorStop(0, '#f8fafc'); pg.addColorStop(1, '#64748b'); }
+            else { pg.addColorStop(0, '#fbbf24'); pg.addColorStop(1, '#b45309'); }
+            ctx.fillStyle = pg;
+            ctx.fillRect(roadCenter - rw * 1.12, sy - postH, postW, postH);
+            ctx.fillRect(roadCenter + rw * 1.12 - postW, sy - postH, postW, postH);
+
+            const bw = rw * 2.3, bh = rw * (isFinish ? 0.38 : 0.3);
+            const bx = roadCenter - bw / 2, by = sy - postH;
+            if (isFinish) {
+                ctx.fillStyle = '#f8fafc';
+                ctx.fillRect(bx, by, bw, bh);
+                const sq = bh / 4, nC = Math.round(bw / sq);
+                ctx.fillStyle = '#111827';
+                for (let r = 0; r < 4; r += 3) {
+                    for (let c = 0; c < nC; c++) {
+                        if ((c + r) % 2 === 0) ctx.fillRect(bx + c * sq, by + r * sq, sq, sq);
+                    }
+                }
+                ctx.fillStyle = '#facc15';
+                ctx.fillRect(bx, by + sq, bw, sq * 2);
+                ctx.strokeStyle = '#111827';
+                ctx.lineWidth = Math.max(1, rw * 0.012);
+                ctx.strokeRect(bx, by, bw, bh);
+                ctx.fillStyle = '#7f1d1d';
+                ctx.font = 'bold ' + Math.max(8, rw * 0.14) + 'px Fredoka, sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('GARIS FINISH', roadCenter, by + bh / 2);
+            } else {
+                const bg = ctx.createLinearGradient(0, by, 0, by + bh);
+                bg.addColorStop(0, '#fcd34d');
+                bg.addColorStop(1, '#d97706');
+                ctx.fillStyle = bg;
+                ctx.fillRect(bx, by, bw, bh);
+                ctx.strokeStyle = '#7c2d12';
+                ctx.lineWidth = Math.max(1, rw * 0.012);
+                ctx.strokeRect(bx, by, bw, bh);
+                ctx.fillStyle = '#7c2d12';
+                ctx.font = 'bold ' + Math.max(8, rw * 0.12) + 'px Fredoka, sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('🏁 POS SOAL ESAI 🏁', roadCenter, by + bh / 2);
+            }
+            ctx.restore();
+        }
+
+        function drawRealisticSportsCar3D() {
+            const carScreenX = width / 2 + gameState.playerX * (width * 0.28);
+            const carScreenY = height * 0.85;
+            const bounce = gameState.speed > 0 ? Math.sin(gameState.position * 0.012) * 1.2 * (gameState.speed / gameState.maxSpeed) : 0;
+
+            ctx.save();
+            ctx.translate(carScreenX, carScreenY + bounce);
+
+            if (gameState.invulnerableTimer > 0 && Math.floor(gameState.invulnerableTimer * 14) % 2 === 0) {
+                ctx.globalAlpha = 0.55;
+            }
+
+            const steerTilt = Math.max(-0.12, Math.min(0.12, gameState.tilt || 0));
+            ctx.rotate(steerTilt);
+
+            const w = Math.min(150, Math.max(110, width * 0.14));
+            const h = w * 0.75;
+
+            // Bayangan Realistis Mobil
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.55)';
+            ctx.beginPath();
+            ctx.ellipse(0, h * 0.48, w * 0.6, h * 0.2, 0, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Roda Realistis
+            ctx.fillStyle = '#0f172a';
+            ctx.beginPath();
+            ctx.roundRect(-w * 0.54, h * 0.1, w * 0.22, h * 0.38, 8);
+            ctx.roundRect(w * 0.32, h * 0.1, w * 0.22, h * 0.38, 8);
+            ctx.fill();
+
+            // Pelek & Alur Ban
+            ctx.fillStyle = '#94a3b8';
+            ctx.beginPath();
+            ctx.arc(-w * 0.43, h * 0.29, w * 0.06, 0, Math.PI * 2);
+            ctx.arc(w * 0.43, h * 0.29, w * 0.06, 0, Math.PI * 2);
+            ctx.fill();
+
+            if (gameState.speed > 0) {
+                const treadOffset = (Math.floor(gameState.position * 0.06) % 2) * (h * 0.12);
+                ctx.fillStyle = '#334155';
+                ctx.fillRect(-w * 0.5, h * 0.14 + treadOffset, w * 0.14, h * 0.1);
+                ctx.fillRect(w * 0.36, h * 0.14 + treadOffset, w * 0.14, h * 0.1);
+            }
+
+            // Bodi Mobil Sport Mengkilap
+            const carGrad = ctx.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2);
+            carGrad.addColorStop(0, '#f87171');
+            carGrad.addColorStop(0.3, '#dc2626');
+            carGrad.addColorStop(0.7, '#991b1b');
+            carGrad.addColorStop(1, '#450a0a');
+            ctx.fillStyle = carGrad;
+            ctx.beginPath();
+            ctx.roundRect(-w * 0.48, -h * 0.15, w * 0.96, h * 0.55, 18);
+            ctx.fill();
+
+            // Kilau Cahaya Bodi
+            const glossGrad = ctx.createLinearGradient(0, -h * 0.15, 0, h * 0.2);
+            glossGrad.addColorStop(0, 'rgba(255, 255, 255, 0.45)');
+            glossGrad.addColorStop(1, 'rgba(255, 255, 255, 0)');
+            ctx.fillStyle = glossGrad;
+            ctx.beginPath();
+            ctx.roundRect(-w * 0.44, -h * 0.12, w * 0.88, h * 0.22, 12);
+            ctx.fill();
+
+            // Kaca Depan / Kokpit
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
+            ctx.beginPath();
+            ctx.roundRect(-w * 0.38, -h * 0.42, w * 0.76, h * 0.32, 12);
+            ctx.fill();
+            ctx.strokeStyle = '#38bdf8';
+            ctx.lineWidth = 2.5;
+            ctx.stroke();
+
+            // Karakter Siswa Pengemudi di Balik Kemudi
+            ctx.fillStyle = '#f8fafc';
+            ctx.beginPath();
+            ctx.ellipse(-w * 0.12, -h * 0.1, w * 0.14, h * 0.14, 0, Math.PI, 0);
+            ctx.fill();
+            ctx.fillStyle = '#0f172a';
+            ctx.beginPath();
+            ctx.arc(-w * 0.12, -h * 0.25, w * 0.1, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Lampu Rem LED
+            ctx.fillStyle = gameState.speed === 0 ? '#ef4444' : '#f87171';
+            ctx.shadowColor = '#ef4444';
+            ctx.shadowBlur = 12;
+            ctx.beginPath();
+            ctx.roundRect(-w * 0.42, h * 0.14, w * 0.24, h * 0.12, 5);
+            ctx.roundRect(w * 0.18, h * 0.14, w * 0.24, h * 0.12, 5);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+
+            // Knalpot Ganda Sport
+            ctx.fillStyle = '#334155';
+            ctx.fillRect(-w * 0.22, h * 0.38, w * 0.12, h * 0.08);
+            ctx.fillRect(w * 0.1, h * 0.38, w * 0.12, h * 0.08);
+
+            // Pelat Nomor Resmi
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(-w * 0.15, h * 0.18, w * 0.3, h * 0.12);
+            ctx.fillStyle = '#0f172a';
+            ctx.font = `bold ${Math.max(9, Math.floor(w * 0.08))}px sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('ESAI XII', 0, h * 0.24);
+
+            ctx.restore();
+        }
+
+        function drawRainEffect() {
+            const rainDensity = gameState.weather === 'RAIN' ? 1.0 : 0.45;
+            ctx.strokeStyle = 'rgba(224, 242, 254, 0.55)';
+            ctx.lineWidth = gameState.weather === 'RAIN' ? 1.8 : 1.2;
+
+            ctx.beginPath();
+            for (let i = 0; i < gameState.rainDrops.length * rainDensity; i++) {
+                const r = gameState.rainDrops[i];
+                ctx.moveTo(r.x, r.y);
+                ctx.lineTo(r.x - 4, r.y + r.len);
+            }
+            ctx.stroke();
+
+            if (gameState.lightningAlpha > 0) {
+                ctx.fillStyle = `rgba(255, 255, 255, ${gameState.lightningAlpha})`;
+                ctx.fillRect(0, 0, width, height);
+            }
+        }
+
+        // =========================================================================
+        // 6. LOGIKA KUIS POS SOAL (TANPA KUNCI JAWABAN) & SISTEM SKOR
+        // =========================================================================
+        function triggerCheckpointQuiz() {
+            gameState.status = 'QUIZ';
+            gameState.speed = 0;
+            gameState.keys.left = false;
+            gameState.keys.right = false;
+            gameState.keys.up = false;
+            audio.playCheckpoint();
+
+            const qObj = questions[gameState.currentQuestionIndex];
+            const modal = document.getElementById('quizModal');
+            const qNumEl = document.getElementById('quizNumber');
+            const qTextEl = document.getElementById('quizQuestionText');
+            const optionsContainer = document.getElementById('quizOptionsContainer');
+            const feedbackBox = document.getElementById('quizFeedbackBox');
+            const quizFooter = document.getElementById('quizFooter');
+
+            qNumEl.textContent = gameState.currentQuestionIndex + 1;
+            qTextEl.textContent = qObj.question;
+            feedbackBox.classList.add('hidden');
+            quizFooter.classList.add('hidden');
+
+            optionsContainer.innerHTML = '';
+
+            qObj.options.forEach((optText, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'w-full text-left p-3.5 rounded-2xl border-2 border-slate-200 hover:border-sky-400 hover:bg-sky-50/70 font-medium text-slate-700 text-sm md:text-base transition-all cursor-pointer flex items-start gap-3';
+                btn.innerHTML = `<span class="flex-1 leading-snug">${optText}</span>`;
+                btn.onclick = () => handleAnswerSelection(idx, btn);
+                optionsContainer.appendChild(btn);
+            });
+
+            modal.classList.remove('hidden');
+        }
+
+        function handleAnswerSelection(selectedIndex, clickedBtn) {
+            const qObj = questions[gameState.currentQuestionIndex];
+            const optionsContainer = document.getElementById('quizOptionsContainer');
+            const allButtons = optionsContainer.querySelectorAll('button');
+            const feedbackBox = document.getElementById('quizFeedbackBox');
+            const feedbackTitle = document.getElementById('quizFeedbackTitle');
+            const feedbackExplanation = document.getElementById('quizFeedbackExplanation');
+            const quizFooter = document.getElementById('quizFooter');
+            const btnNextText = document.getElementById('btnNextText');
+
+            allButtons.forEach((btn) => {
+                btn.disabled = true;
+                btn.classList.remove('hover:border-sky-400', 'hover:bg-sky-50/70', 'cursor-pointer');
+            });
+
+            const isCorrect = selectedIndex === qObj.answer;
+
+            if (isCorrect) {
+                clickedBtn.classList.remove('border-slate-200');
+                clickedBtn.classList.add('border-emerald-500', 'bg-emerald-50', 'text-emerald-900', 'font-bold');
+                gameState.correctAnswers += 1;
+                gameState.score += 100;
+                audio.playCorrect();
+                updateHUD();
+
+                feedbackBox.className = 'rounded-2xl p-4 border-2 border-emerald-400 bg-emerald-50 text-emerald-900';
+                feedbackTitle.textContent = '🎉 Jawaban Benar! (+100 Poin)';
+                feedbackExplanation.textContent = 'Hebat! Jawabanmu tepat. Ayo tekan tombol di bawah dan tahan tombol GAS untuk melanjutkan perjalanan.';
+            } else {
+                clickedBtn.classList.remove('border-slate-200');
+                clickedBtn.classList.add('border-rose-500', 'bg-rose-50', 'text-rose-900', 'font-bold');
+                audio.playWrong();
+
+                feedbackBox.className = 'rounded-2xl p-4 border-2 border-rose-400 bg-rose-50 text-rose-900';
+                feedbackTitle.textContent = '❌ Kurang Tepat (0 Poin)';
+                feedbackExplanation.textContent = 'Tetap semangat! Terus fokus dan lanjutkan perjalanan menuju pos berikutnya.';
+            }
+
+            feedbackBox.classList.remove('hidden');
+
+            btnNextText.textContent = gameState.currentQuestionIndex >= questions.length - 1
+                ? 'Lihat Skor Akhir'
+                : 'Lanjut Berkendara';
+
+            quizFooter.classList.remove('hidden');
+        }
+
+        document.getElementById('btnNextCheckpoint').addEventListener('click', () => {
+            document.getElementById('quizModal').classList.add('hidden');
+
+            if (gameState.currentQuestionIndex >= questions.length - 1) {
+                // Soal terakhir: mobil melaju melewati garis finish dulu
+                gameState.finishSoundDone = false;
+                gameState.speed = Math.max(gameState.speed, 1500);
+                gameState.status = 'CROSSING';
+            } else {
+                gameState.currentQuestionIndex += 1;
+                buildTrackForQuestion(gameState.currentQuestionIndex);
+                updateHUD();
+                gameState.status = 'DRIVING';
+            }
+        });
+
+        // =========================================================================
+        // 7. LAYAR AKHIR & CONFETTI
+        // =========================================================================
+        function showFinishScreen() {
+            gameState.status = 'FINISH';
+            audio.playCorrect();
+
+            document.getElementById('hudContainer').classList.add('hidden');
+            document.getElementById('touchControls').classList.add('hidden');
+
+            document.getElementById('finalName').textContent = gameState.playerName;
+            document.getElementById('finalClass').textContent = `Kelas: ${gameState.playerClass}`;
+            document.getElementById('finalScore').textContent = gameState.score.toLocaleString('id-ID');
+            document.getElementById('finalCorrect').textContent = gameState.correctAnswers;
+            document.getElementById('finalCoins').textContent = gameState.coins;
+
+            const pct = (gameState.correctAnswers / questions.length) * 100;
+            const predEl = document.getElementById('finalPredicate');
+            if (pct >= 85) {
+                predEl.textContent = '🌟 Sangat Kompeten (A)';
+                predEl.className = 'text-xs font-bold px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40';
+            } else if (pct >= 70) {
+                predEl.textContent = '👍 Kompeten (B)';
+                predEl.className = 'text-xs font-bold px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/40';
+            } else if (pct >= 55) {
+                predEl.textContent = '📘 Cukup Kompeten (C)';
+                predEl.className = 'text-xs font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40';
+            } else {
+                predEl.textContent = '💪 Perlu Belajar Lagi';
+                predEl.className = 'text-xs font-bold px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40';
+            }
+
+            gameState.confetti = [];
+            const colors = ['#facc15', '#38bdf8', '#4ade80', '#f472b6', '#fb923c'];
+            for (let i = 0; i < 90; i++) {
+                gameState.confetti.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height - height,
+                    w: 8 + Math.random() * 6,
+                    h: 5 + Math.random() * 5,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    vy: 90 + Math.random() * 140,
+                    vx: (Math.random() - 0.5) * 60,
+                    rot: Math.random() * Math.PI * 2
+                });
+            }
+
+            document.getElementById('finishScreen').classList.remove('hidden');
+        }
+
+        function updateConfetti(dt) {
+            gameState.confetti.forEach(c => {
+                c.y += c.vy * dt;
+                c.x += c.vx * dt;
+                c.rot += 3 * dt;
+                if (c.y > height + 20) c.y = -20;
+            });
+        }
+
+        function drawConfetti() {
+            if (gameState.status !== 'FINISH') return;
+            gameState.confetti.forEach(c => {
+                ctx.save();
+                ctx.translate(c.x, c.y);
+                ctx.rotate(c.rot);
+                ctx.fillStyle = c.color;
+                ctx.fillRect(-c.w / 2, -c.h / 2, c.w, c.h);
+                ctx.restore();
+            });
+        }
+
+        // =========================================================================
+        // 8. PROTEKSI ANTI-KECURANGAN (VISIBILITYCHANGE & WINDOW BLUR)
+        // =========================================================================
+        function resetGameToStart() {
+            gameState.status = 'START';
+            gameState.currentQuestionIndex = 0;
+            gameState.coins = 0;
+            gameState.correctAnswers = 0;
+            gameState.score = 0;
+            gameState.speed = 0;
+            gameState.playerX = 0;
+            gameState.keys.left = false;
+            gameState.keys.right = false;
+            gameState.keys.up = false;
+
+            document.getElementById('hudContainer').classList.add('hidden');
+            document.getElementById('touchControls').classList.add('hidden');
+            document.getElementById('quizModal').classList.add('hidden');
+            document.getElementById('finishScreen').classList.add('hidden');
+            document.getElementById('startScreen').classList.remove('hidden');
+
+            buildTrackForQuestion(0);
+        }
+
+        function handleCheatingDetection() {
+            if (gameState.status === 'DRIVING' || gameState.status === 'QUIZ') {
+                gameState.status = 'CHEAT';
+                gameState.speed = 0;
+                gameState.keys.left = false;
+                gameState.keys.right = false;
+                gameState.keys.up = false;
+                audio.playWrong();
+                document.getElementById('cheatModal').classList.remove('hidden');
+            }
+        }
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) handleCheatingDetection();
+        });
+
+        window.addEventListener('blur', () => {
+            handleCheatingDetection();
+        });
+
+        document.getElementById('btnAcknowledgeCheat').addEventListener('click', () => {
+            document.getElementById('cheatModal').classList.add('hidden');
+            resetGameToStart();
+        });
+
+        // =========================================================================
+        // 9. VALIDASI FORM AWAL, KONTROL INPUT, HUD & LOOP UTAMA
+        // =========================================================================
+        const inputName = document.getElementById('inputName');
+        const inputClass = document.getElementById('inputClass');
+        const btnStartGame = document.getElementById('btnStartGame');
+        const formError = document.getElementById('formError');
+
+        function validateStartForm() {
+            const isValid = inputName.value.trim().length > 0 && inputClass.value.trim().length > 0;
+            btnStartGame.disabled = !isValid;
+            if (isValid) formError.classList.add('hidden');
+        }
+
+        inputName.addEventListener('input', validateStartForm);
+        inputClass.addEventListener('input', validateStartForm);
+
+        function updateHUD() {
+            document.getElementById('hudPos').textContent = Math.min(30, gameState.currentQuestionIndex + 1);
+            document.getElementById('nextPosLabel').textContent = Math.min(30, gameState.currentQuestionIndex + 1);
+            document.getElementById('hudCoins').textContent = gameState.coins;
+            document.getElementById('hudScore').textContent = gameState.score.toLocaleString('id-ID');
+        }
+
+        function startNewSession() {
+            const nameVal = inputName.value.trim();
+            const classVal = inputClass.value.trim();
+
+            if (!nameVal || !classVal) {
+                formError.classList.remove('hidden');
+                return;
+            }
+
+            audio.init();
+            audio.playStartJingle();
+            audio.startBGM();
+
+            gameState.playerName = nameVal;
+            gameState.playerClass = classVal;
+            gameState.currentQuestionIndex = 0;
+            gameState.coins = 0;
+            gameState.correctAnswers = 0;
+            gameState.score = 0;
+            gameState.playerX = 0;
+            gameState.steerVel = 0;
+            gameState.tilt = 0;
+            gameState.speed = 0;
+            gameState.slowdownTimer = 0;
+            gameState.invulnerableTimer = 0;
+            gameState.floatingTexts = [];
+            gameState.exhaustParticles = [];
+
+            document.getElementById('hudName').textContent = gameState.playerName;
+            document.getElementById('hudClass').textContent = `Kelas: ${gameState.playerClass}`;
+            updateHUD();
+
+            buildTrackForQuestion(0);
+
+            document.getElementById('startScreen').classList.add('hidden');
+            document.getElementById('finishScreen').classList.add('hidden');
+            document.getElementById('hudContainer').classList.remove('hidden');
+            document.getElementById('touchControls').classList.remove('hidden');
+
+            gameState.status = 'DRIVING';
+        }
+
+        btnStartGame.addEventListener('click', startNewSession);
+        document.getElementById('btnPlayAgain').addEventListener('click', startNewSession);
+
+        const btnMute = document.getElementById('btnMute');
+        btnMute.addEventListener('click', () => {
+            audio.muted = !audio.muted;
+            btnMute.textContent = audio.muted ? '🔇' : '🔊';
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') gameState.keys.left = true;
+            if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') gameState.keys.right = true;
+            if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
+                e.preventDefault();
+                gameState.keys.up = true;
+            }
+        });
+
+        window.addEventListener('keyup', (e) => {
+            if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') gameState.keys.left = false;
+            if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') gameState.keys.right = false;
+            if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') gameState.keys.up = false;
+        });
+
+        function bindHoldButton(btnId, keyName) {
+            const btn = document.getElementById(btnId);
+            const press = (e) => {
+                e.preventDefault();
+                gameState.keys[keyName] = true;
+            };
+            const release = (e) => {
+                e.preventDefault();
+                gameState.keys[keyName] = false;
+            };
+            btn.addEventListener('touchstart', press, { passive: false });
+            btn.addEventListener('touchend', release, { passive: false });
+            btn.addEventListener('touchcancel', release, { passive: false });
+            btn.addEventListener('mousedown', press);
+            btn.addEventListener('mouseup', release);
+            btn.addEventListener('mouseleave', release);
+        }
+
+        bindHoldButton('btnLeft', 'left');
+        bindHoldButton('btnRight', 'right');
+        bindHoldButton('btnGas', 'up');
+
+        let lastTime = performance.now();
+        function gameLoop(now) {
+            const rawDt = Math.min(0.05, (now - lastTime) / 1000);
+            lastTime = now;
+            gameState.smoothDt = (gameState.smoothDt || rawDt) * 0.85 + rawDt * 0.15;
+            const dt = gameState.smoothDt;
+
+            if (gameState.status === 'START') {
+                gameState.cloudTime += dt;
+                gameState.bgX += dt * 2;
+                gameState.position += 1200 * dt;
+                if (gameState.position > (SEGMENTS_PER_QUESTION - 30) * SEGMENT_LENGTH) {
+                    gameState.position = 0;
+                    populateTraffic();
+                }
+                updateTraffic(dt);
+            } else {
+                updateGame(dt);
+                if (gameState.status === 'DRIVING' || gameState.status === 'CROSSING') updateTraffic(dt);
+            }
+
+            drawGame();
+            drawConfetti();
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        window.onload = function () {
+            prewarmSprites();
+            buildTrackForQuestion(0);
+            requestAnimationFrame(gameLoop);
+        };
+    </script>
+</body>
+</html>
